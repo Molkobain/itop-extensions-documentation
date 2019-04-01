@@ -14,9 +14,9 @@ This extension simply adds 2 buttons next to the caselog title, in both the cons
 
 *Note: Screenshots feature the **[Bubble caselogs](https://www.molkobain.com/product/bubble-caselogs/)** extension (which changes the caselog entries look & feel) but is not part of this one.*
 
-![Description decoration](https://raw.githubusercontent.com/Molkobain/itop-caselogs-toggler/develop/docs/mct-portal-example-01.png)
+![Portal example 01](docs/mct-portal-example-01.png)
 
-![Description decoration](https://raw.githubusercontent.com/Molkobain/itop-caselogs-toggler/develop/docs/mct-portal-example-02.png)
+![Portal example 02](docs/mct-portal-example-02.png)
 
 ## Compatibility
 Compatible with iTop 2.4+
@@ -39,7 +39,7 @@ Downloading it directly from the *Clone or download* will get you the version un
 
 *Your folders should look like this*
 
-![Extensions folder](https://raw.githubusercontent.com/Molkobain/itop-caselogs-toggler/develop/docs/mct-install.png)
+![Extensions folder](docs/mct-install.png)
 
 ## Configuration
 No configuration needed.

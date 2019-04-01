@@ -31,7 +31,7 @@ Downloading it directly from the *Clone or download* will get you the version un
 
 *Your folders should look like this*
 
-![Extensions folder](https://raw.githubusercontent.com/Molkobain/itop-google-analytics/develop/docs/mga-install.png)
+![Extensions folder](docs/mga-install.png)
 
 ## Configuration
 Get tracking codes from Google Analytics' website and put them in the tracking_codes parameter (see below).

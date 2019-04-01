@@ -11,7 +11,7 @@
 ## Description
 Use [Font Awesome 5.7.2](https://fontawesome.com/) new icon sets in both portal & console.
 
-![Description decoration](https://raw.githubusercontent.com/Molkobain/itop-fontawesome5-pack/develop/docs/mfp-icon-examples.PNG)
+![Description decoration](docs/mfp-icon-examples.PNG)
 
 ## Compatibility
 Compatible with iTop 2.4+
@@ -30,7 +30,7 @@ Downloading it directly from the *Clone or download* will get you the version un
 
 *Your folders should look like this*
 
-![Extensions folder](https://raw.githubusercontent.com/Molkobain/itop-fontawesome5-pack/develop/docs/mfp-install.PNG)
+![Extensions folder](docs/mfp-install.PNG)
 
 ## Configuration
 No configuration needed.
@@ -41,17 +41,17 @@ Let's say that for example you would like to change the *New request* icon with 
 
 *XML before*
 
-![Before](https://raw.githubusercontent.com/Molkobain/itop-fontawesome5-pack/develop/docs/mfp-example-01-01.PNG)
+![Before](docs/mfp-example-01-01.PNG)
 
 *XML after*
 
-![After](https://raw.githubusercontent.com/Molkobain/itop-fontawesome5-pack/develop/docs/mfp-example-01-02.PNG)
+![After](docs/mfp-example-01-02.PNG)
 
 Run iTop setup and your portal home page should look like this!
 
 *Result*
 
-![Extensions folder](https://raw.githubusercontent.com/Molkobain/itop-fontawesome5-pack/develop/docs/mfp-example-01-03.PNG)
+![Extensions folder](docs/mfp-example-01-03.PNG)
 
 ## Licensing
 This extension is under [AGPLv3](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License).
