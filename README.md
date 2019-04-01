@@ -10,7 +10,7 @@ You'll have access to:
 
 Choose an extension below to get started! 🤓
 
-* [molkobain-bubble-caselogs](molkobain-bubble-caselogs/README.md): Change the look and feel of the caselogs to make it look like modern messaging applications.
+* [molkobain-bubble-caselogs](molkobain-bubble-caselogs/README.md): Change the look and feel of the caselogs to make it look like modern messaging app.
 * [molkobain-caselogs-toggler](molkobain-caselogs-toggler/README.md): Finally a way to open / close all caselog entries at once!
 * [molkobain-console-tooltips](molkobain-console-tooltips/README.md): Inform your users about the purpose of object fields with small tooltips.
 * [molkobain-datacenter-view](molkobain-datacenter-view/README.md): Easily manage & visualize your racks, enclosures and datacenter devices.
