@@ -21,7 +21,7 @@ As part of the standard datamodel, only few fields have such description documen
 *Note: By default iTop has not much descriptions, if you want to add some, you have to add dictionary entries.*
 
 ![Description decoration](docs/mct-object-01.png)
-![Description tooltip](https://raw.githubusercontent.com/Molkobain/itop-console-tooltips/develop/docs/mct-object-02.png)
+![Description tooltip](docs/mct-object-02.png)
 
 ## Compatibility
 Compatible with iTop 2.3+
@@ -43,7 +43,7 @@ Downloading it directly from the *Clone or download* will get you the version un
 
 *Your folders should look like this*
 
-![Extensions folder](https://raw.githubusercontent.com/Molkobain/itop-console-tooltips/develop/docs/mct-install.PNG)
+![Extensions folder](docs/mct-install.png)
 
 ## Configuration
 ### Parameters
