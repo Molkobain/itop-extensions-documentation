@@ -34,7 +34,7 @@ Downloading it directly from the *Clone or download* will get you the version un
 
 ## Installation
 * Unzip the extension
-* Copy the ``dist/molkobain-caselogs-toggler`` folder under ``<PATH_TO_ITOP>/extensions`` folder of your iTop
+* Copy the ``molkobain-caselogs-toggler`` folder under ``<PATH_TO_ITOP>/extensions`` folder of your iTop
 * Run iTop setup & select extension *Caselog entries toggler*
 
 *Your folders should look like this*

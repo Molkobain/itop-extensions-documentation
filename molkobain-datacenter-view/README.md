@@ -62,7 +62,7 @@ Downloading it directly from the *Clone or download* will get you the version un
 
 ## Installation
 * Unzip the extension
-* Copy the ``dist/molkobain-datacenter-view`` folder under ``<PATH_TO_ITOP>/extensions`` folder of your iTop
+* Copy the ``molkobain-datacenter-view`` folder under ``<PATH_TO_ITOP>/extensions`` folder of your iTop
 * Run iTop setup & select extension *Datacenter view*
 
 *Your folders should look like this*

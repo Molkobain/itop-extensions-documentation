@@ -20,13 +20,13 @@ Features:
 Compatible with iTop 2.4+
 
 ## Downloads
-Stable releases can be found on the [releases page](https://github.com/Molkobain/itop-google-analytics/releases).
+Stable releases can be found either on the [releases page](https://github.com/Molkobain/itop-google-analytics/releases) or on [Molkobain I/O](https://www.molkobain.com/product/google-analytics/).
 
 Downloading it directly from the *Clone or download* will get you the version under development which might be unstable.
 
 ## Installation
 * Unzip the extension
-* Copy the ``dist/molkobain-google-analytics`` folder under ``<PATH_TO_ITOP>/extensions`` folder of your iTop
+* Copy the ``molkobain-google-analytics`` folder under ``<PATH_TO_ITOP>/extensions`` folder of your iTop
 * Run iTop setup & select extension *Google Analytics: Tracking code integration*
 
 *Your folders should look like this*
