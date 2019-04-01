@@ -11,7 +11,7 @@
 ## Description
 Use [Font Awesome 5.7.2](https://fontawesome.com/) new icon sets in both portal & console.
 
-![Description decoration](docs/mfp-icon-examples.PNG)
+![Description decoration](docs/mfp-icon-examples.png)
 
 ## Compatibility
 Compatible with iTop 2.4+
@@ -30,7 +30,7 @@ Downloading it directly from the *Clone or download* will get you the version un
 
 *Your folders should look like this*
 
-![Extensions folder](docs/mfp-install.PNG)
+![Extensions folder](docs/mfp-install.png)
 
 ## Configuration
 No configuration needed.
@@ -41,17 +41,17 @@ Let's say that for example you would like to change the *New request* icon with 
 
 *XML before*
 
-![Before](docs/mfp-example-01-01.PNG)
+![Before](docs/mfp-example-01-01.png)
 
 *XML after*
 
-![After](docs/mfp-example-01-02.PNG)
+![After](docs/mfp-example-01-02.png)
 
 Run iTop setup and your portal home page should look like this!
 
 *Result*
 
-![Extensions folder](docs/mfp-example-01-03.PNG)
+![Extensions folder](docs/mfp-example-01-03.png)
 
 ## Licensing
 This extension is under [AGPLv3](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License).
