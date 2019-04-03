@@ -42,7 +42,7 @@ Downloading it directly from the *Clone or download* will get you the version un
 ![Extensions folder](docs/mct-install.png)
 
 ## Configuration
-No configuration needed.
+No configuration needed, the extension can be used out of the box!
 
 ### Parameters
 Some configuration parameters are available from the Configuration editor of the console:
@@ -50,6 +50,16 @@ Some configuration parameters are available from the Configuration editor of the
 * ``open_all_icon`` CSS classes of the *open* icon, allows you to choose any FontAwesome icon. Value must be a string of CSS classes separated by a space (eg. ``'fas fa-book-open'``).
 * ``close_all_icon`` CSS classes of the *close* icon, allows you to choose any FontAwesome icon. Value must be a string of CSS classes separated by a space (eg. ``'fas fa-book'``).
 * ``icons_separator`` Separator of the 2 icons. Value must be a string (eg. ``'-'``).
+
+*Example:*
+```
+'molkobain-caselogs-toggler' => array (
+  'enabled' => true,
+  'open_all_icon' => 'fas fa-book-open',
+  'close_all_icon' => 'fas fa-book',
+  'icons_separator' => '-',
+),
+```
 
 ## Contributors
 I would like to give a special thank you to the people who contributed to this:

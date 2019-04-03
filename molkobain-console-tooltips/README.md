@@ -46,10 +46,20 @@ Downloading it directly from the *Clone or download* will get you the version un
 ![Extensions folder](docs/mct-install.png)
 
 ## Configuration
+No configuration needed, the extension can be used out of the box!
+
 ### Parameters
-The extension has 2 configuration parameters:
-  * decoration_class: Change tooltip icon by setting any *Font Awesome 5* icon classes (see [here](https://fontawesome.com/icons?d=gallery&m=free)  for examples). Default is ``fas fa-question``.
-  * enabled: Enable or disable extension. Possible values are true|false, default is true.
+Some configuration parameters are available from the Configuration editor of the console:
+* ``enabled`` Enable or disable extension. Possible values are ``true`` or ``false``, default is ``true``.
+* ``decoration_class`` Change tooltip icon by setting any *Font Awesome 5* icon classes (see [here](https://fontawesome.com/icons?d=gallery&m=free)  for examples). Default is ``fas fa-question``.
+
+*Example:*
+```
+'molkobain-console-tooltips' => array (
+  'enabled' => true,
+  'decoration_class' => 'fas fa-question',
+),
+```
 
 ## Licensing
 This extension is under [AGPLv3](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License).
