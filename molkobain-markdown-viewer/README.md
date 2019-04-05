@@ -1,60 +1,76 @@
-👋 [Available on Molkobain I/O](https://www.molkobain.com/product/caselogs-toggler/)
+👋 [Available on Molkobain I/O](https://www.molkobain.com/product/markdown-viewer/)
 
-# iTop extension: molkobain-caselogs-toggler
+# iTop extension: molkobain-markdown-viewer
 * [Description](#description)
+* [Online demo](#online-demo)
 * [Compatibility](#compatibility)
 * [Downloads](#downloads)
 * [Installation](#installation)
 * [Configuration](#configuration)
 
 ## Description
-Have a better user experience with caselogs by being able to open / close all entries at once.
+Easily edit fields in Markdown without any modification to your datamodel!
 
-This extension simply adds 2 buttons next to the caselog title, in both the console & portal.
+Advanced features support such as headings, emphasis, lists, images, hyperlinks, highlighting, code formatting...
 
-*Note: Screenshots feature the **[Bubble caselogs](https://www.molkobain.com/product/bubble-caselogs/)** extension (which changes the caselog entries look & feel) but is not part of this one.*
+![Description decoration](docs/mmv-console-edition-01.png)
 
-![Description decoration](https://raw.githubusercontent.com/Molkobain/itop-caselogs-toggler/develop/docs/mct-portal-example-01.png)
+Instant preview of Markdown rendering while editing
+![Preview while editing](docs/mmv-console-preview-01.png)
 
-![Description decoration](https://raw.githubusercontent.com/Molkobain/itop-caselogs-toggler/develop/docs/mct-portal-example-02.png)
+Fully compatible with the enhanced portal...
+![Portal visualization](docs/mmv-portal-view-01.png)
+
+... in both visualization and edition
+![Portal editing](docs/mmv-portal-edition-01.png)
+![Portal preview](docs/mmv-portal-preview-01.png)
+
+## Online demo
+You can try this extension on the online demo. There are already some FAQs with a markdown description as an example. Just click on the links below to access it:
+* [Administration console](http://mbc.itop.molkobain.com/pages/UI.php?operation=details&class=FAQ&id=1&c[menu]=FAQ&auth_user=admin&auth_pwd=admin) (admin / admin)
+* [Enhanced portal](http://mbc.itop.molkobain.com/pages/exec.php/object/view/FAQ/1?exec_module=itop-portal-base&exec_page=index.php&portal_id=itop-portal&auth_user=portal&auth_pwd=portal) (portal / portal)
+
+*Note: Mind to logout before switching between console & portal.*
 
 ## Compatibility
-Partially compatible with iTop 2.4 / 2.5 (No end-user portal support)
-Fully compatible with iTop 2.6+
+Compatible with iTop 2.4+
 
 ## Dependencies
-* Module `molkobain-handy-framework/1.1.0`
+* Module `molkobain-handy-framework/1.1.1`
 
 *Note: All dependencies are included in the `dist/` folder, so all you need to do is follow the installation section below.*
 
 ## Downloads
-Stable releases can be found either on the [releases page](https://github.com/Molkobain/itop-caselogs-toggler/releases) or on [Molkobain I/O](https://www.molkobain.com/product/caselogs-toggler/).
-
-Downloading it directly from the *Clone or download* will get you the version under development which might be unstable.
+Stable releases can be found on [Molkobain I/O](https://www.molkobain.com/product/markdown-viewer/).
 
 ## Installation
 * Unzip the extension
-* Copy the ``dist/molkobain-caselogs-toggler`` folder under ``<PATH_TO_ITOP>/extensions`` folder of your iTop
-* Run iTop setup & select extension *Caselog entries toggler*
+* Copy the ``molkobain-markdown-viewer`` folder under ``<PATH_TO_ITOP>/extensions`` folder of your iTop
+* Run iTop setup & select extension *Markdown editor*
 
 *Your folders should look like this*
 
-![Extensions folder](https://raw.githubusercontent.com/Molkobain/itop-caselogs-toggler/develop/docs/mct-install.png)
+![Extensions folder](docs/mmv-install.png)
 
 ## Configuration
-No configuration needed.
+Out of the box this extension doesn't change any attributes, you have to configure which attributes you want to be rendered as Markdown. To do so, take a look at the ``markdown_attributes`` parameter in the next section.
 
 ### Parameters
 Some configuration parameters are available from the Configuration editor of the console:
 * ``enabled`` Enable / disable the extension without having to uninstall it. Value can be ``true`` or ``false``.
-* ``open_all_icon`` CSS classes of the *open* icon, allows you to choose any FontAwesome icon. Value must be a string of CSS classes separated by a space (eg. ``'fas fa-book-open'``).
-* ``close_all_icon`` CSS classes of the *close* icon, allows you to choose any FontAwesome icon. Value must be a string of CSS classes separated by a space (eg. ``'fas fa-book'``).
-* ``icons_separator`` Separator of the 2 icons. Value must be a string (eg. ``'-'``).
+* ``markdown_attributes`` Class attributes to enable as Markdown. Value must be an array of classes, each containing an array of the attributes you want to render as Markdown. Default value is none, you have to set which ones you want!
 
-## Contributors
-I would like to give a special thank you to the people who contributed to this:
- - Bostoen, Jeffrey
- - Goiffon, Pierre
+*Example:*
+```
+'molkobain-markdown-viewer' => array (
+  'enabled' => true,
+  'markdown_attributes' => array(
+    'Service' => array('description'),
+    'ServiceSubcategory' => array('description'),
+    'FAQ' => array('summary', 'description'),
+  ),
+),
+```
 
 ## Licensing
-This extension is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+This extension is bound by the license you purchased. A license grants you a non-exclusive and non-transferable right to use and incorporate the item in your personal or commercial projects. There are several [licenses available](https://www.molkobain.com/usage-licenses/).
