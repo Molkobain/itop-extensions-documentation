@@ -28,7 +28,7 @@ You can try this extension on the online demo. There is already a user request w
 Compatible with iTop 2.4+
 
 ## Dependencies
-* Module `molkobain-fontawesome5-pack/1.1.0`
+* Module `molkobain-fontawesome5-pack/1.1.1`
 * Module `molkobain-handy-framework/1.1.0`
 
 ## Downloads

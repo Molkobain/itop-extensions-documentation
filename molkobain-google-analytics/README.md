@@ -14,7 +14,7 @@ Features:
 * Works on both the admin. console and end-user portal.
 * Different tracking codes can be set to the admin. console and end-user portal.
 * Supports multi end-user portal setups, just add portal IDs in the configuration file.
-* Option to not track specific users or profiles (eg. administrators).
+* Option to not track specific users, IPs or profiles (eg. administrators).
 
 ## Compatibility
 Compatible with iTop 2.4+
@@ -42,6 +42,7 @@ Some configuration parameters are available from the Configuration editor of the
   * `tracking_codes`: Tracking code for each iTop "portal". `backoffice` being the admin. console, `itop-portal` the standard end-user portal. You can add any other end-user portal instance you have by adding `'PORTAL_ID' => 'TRACKING_CODE',` to the list.
   * `ignored_profiles`: Ignore specific profiles with a list of profiles. Value must be an array of profiles (eg. `array('Administrator')`), default is an empty array.
   * `ignored_users`: Ignore specific users with a list of user logins. Value must be an array of logins (eg. `array('admin', 'test-user')`), default is an empty array.
+  * `ignored_ips`: Ignore specific IPs within a list. Value must be an array of strings (eg. `array('123.456.789.999', '192.168.0.1')`), default is an empty array.
 
 *Example:*
 ```
@@ -53,6 +54,7 @@ Some configuration parameters are available from the Configuration editor of the
   ),
   'ignored_profiles' => array(),
   'ignored_users' => array(),
+  'ignored_ips' => array(),
 ),
 ```
 
