@@ -6,6 +6,7 @@
 * [Downloads](#downloads)
 * [Installation](#installation)
 * [Configuration](#configuration)
+* [Change log](CHANGELOG.md)
 
 ## Description
 Have a better user experience with caselogs by being able to open / close all entries at once.

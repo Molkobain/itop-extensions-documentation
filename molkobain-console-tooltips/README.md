@@ -6,6 +6,7 @@
 * [Downloads](#downloads)
 * [Installation](#installation)
 * [Configuration](#configuration)
+* [Change log](CHANGELOG.md)
 
 ## Description
 Display a tooltip on object's attributes (console only). A ? is added next to the attribute's label to indicate that a description is available for an attribute.

@@ -7,6 +7,7 @@
 * [Installation](#installation)
 * [Configuration](#configuration)
 * [How to](#how-to)
+* [Change log](CHANGELOG.md)
 
 ## Description
 Use [Font Awesome 5.7.2](https://fontawesome.com/) new icon sets in both portal & console.

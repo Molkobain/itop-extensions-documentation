@@ -6,6 +6,7 @@
 * [Downloads](#downloads)
 * [Installation](#installation)
 * [Configuration](#configuration)
+* [Change log](CHANGELOG.md)
 
 ## Description
 Enable Google Analytics reporting on your iTop instance within seconds! Just put your tracking code in the configuration file and your are good to go. Reporting can be enabled on both the admin. console and the end-user portal.

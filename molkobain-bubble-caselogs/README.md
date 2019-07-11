@@ -7,6 +7,7 @@
 * [Downloads](#downloads)
 * [Installation](#installation)
 * [Configuration](#configuration)
+* [Change log](CHANGELOG.md)
 
 ## Description
 This extension changes the look and feel of the caselogs in both the enhanced portal and the console to make it look like modern messaging applications.
