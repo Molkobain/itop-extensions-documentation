@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.4.0] - 2019-07-22
+### Added
+- Include "Molkobain's newsroom provider" module to keep administrators informed on new extensions and updates (can be disabled in the conf. file) (iTop 2.6+ only)
+
 ## [1.3.2] - 2019-05-13
 ### Changed
 - Fix compatibility with some FontAwesome 4.x icons
@@ -42,7 +46,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Changed
 - Add compatibility with iTop 2.4+
 
-[Unreleased]: https://github.com/Molkobain/itop-caselogs-toggler/compare/v1.3.2...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-caselogs-toggler/compare/v1.4.0...HEAD
+[1.4.0]: https://github.com/Molkobain/itop-caselogs-toggler/releases/tag/v1.4.0
 [1.3.2]: https://github.com/Molkobain/itop-caselogs-toggler/releases/tag/v1.3.2
 [1.3.1]: https://github.com/Molkobain/itop-caselogs-toggler/releases/tag/v1.3.1
 [1.3.0]: https://github.com/Molkobain/itop-caselogs-toggler/releases/tag/v1.3.0

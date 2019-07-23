@@ -30,7 +30,8 @@ Compatible with iTop 2.4+
 
 ## Dependencies
 * Module `molkobain-fontawesome5-pack/1.1.1`
-* Module `molkobain-handy-framework/1.1.0`
+* Module `molkobain-handy-framework/1.2.4`
+* Module `molkobain-newsroom-provider/1.0.0`
 
 ## Downloads
 Stable releases can be found on [Molkobain I/O](https://www.molkobain.com/product/bubble-caselogs/).
