@@ -37,8 +37,8 @@ You can try this extension on the online demo. There are already some FAQs with 
 Compatible with iTop 2.4+
 
 ## Dependencies
-* Module `molkobain-handy-framework/1.1.1`
-* Module `molkobain-newsroom-provider/1.0.0`
+* Module `molkobain-handy-framework/1.2.4`
+* Module `molkobain-newsroom-provider/1.0.1`
 
 *Note: All dependencies are included in the `dist/` folder, so all you need to do is follow the installation section below.*
 
@@ -75,4 +75,7 @@ Some configuration parameters are available from the Configuration editor of the
 ```
 
 ## Licensing
-This extension is bound by the license you purchased. A license grants you a non-exclusive and non-transferable right to use and incorporate the item in your personal or commercial projects. There are several [licenses available](https://www.molkobain.com/usage-licenses/).
+This extension is under [AGPLv3](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License).
+
+## Third party libs
+This extension is based on the awesome Showdown library. For more information visit its [website](https://github.com/showdownjs/showdown).

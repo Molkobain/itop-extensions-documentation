@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.1.2] - 2019-07-24
+### Changed
+- Update dependencies to include their fixes
+
 ## [1.1.1] - 2019-07-23
 ### Changed
 - Fix rendering of line breaks on read-only attributes (preview was ok)
