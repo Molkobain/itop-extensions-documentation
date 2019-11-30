@@ -19,10 +19,10 @@ Advanced features support such as headings, emphasis, lists, images, hyperlinks,
 Instant preview of Markdown rendering while editing
 ![Preview while editing](docs/mmv-console-preview-01.png)
 
-Fully compatible with the enhanced portal...
+Fully compatible with the enhanced portal in both visualization...
 ![Portal visualization](docs/mmv-portal-view-01.png)
 
-... in both visualization and edition
+... and edition with instant preview
 ![Portal editing](docs/mmv-portal-edition-01.png)
 ![Portal preview](docs/mmv-portal-preview-01.png)
 
@@ -43,7 +43,9 @@ Compatible with iTop 2.4+
 *Note: All dependencies are included in the `dist/` folder, so all you need to do is follow the installation section below.*
 
 ## Downloads
-Stable releases can be found on [Molkobain I/O](https://www.molkobain.com/product/markdown-viewer/).
+Stable releases can be found on the [releases page](https://github.com/Molkobain/itop-markdown-viewer/releases) or on [Molkobain I/O](https://www.molkobain.com/product/markdown-viewer/).
+
+Downloading it directly from the Clone or download will get you the version under development which might be unstable.
 
 ## Installation
 * Unzip the extension

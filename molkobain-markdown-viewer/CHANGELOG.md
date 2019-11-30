@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.1.3] - 2019-11-30
+### Changed
+- Fix display in the end-user portal
+
 ## [1.1.2] - 2019-07-24
 ### Changed
 - Update dependencies to include their fixes
@@ -21,5 +25,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 - First version
 
-[Unreleased]: https://github.com/Molkobain/itop-markdown-viewer/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-markdown-viewer/compare/v1.1.3...HEAD
+[1.1.3]: https://github.com/Molkobain/itop-markdown-viewer/releases/tag/v1.1.3
+[1.1.2]: https://github.com/Molkobain/itop-markdown-viewer/releases/tag/v1.1.2
+[1.1.1]: https://github.com/Molkobain/itop-markdown-viewer/releases/tag/v1.1.1
+[1.1.0]: https://github.com/Molkobain/itop-markdown-viewer/releases/tag/v1.1.0
 [1.0.0]: https://github.com/Molkobain/itop-markdown-viewer/releases/tag/v1.0.0
