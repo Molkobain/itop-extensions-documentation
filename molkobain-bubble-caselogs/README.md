@@ -31,7 +31,7 @@ Compatible with iTop 2.4+
 ## Dependencies
 * Module `molkobain-fontawesome5-pack/1.1.1`
 * Module `molkobain-handy-framework/1.2.4`
-* Module `molkobain-newsroom-provider/1.0.0`
+* Module `molkobain-newsroom-provider/1.0.2`
 
 ## Downloads
 Stable releases can be found on [Molkobain I/O](https://www.molkobain.com/product/bubble-caselogs/).
@@ -53,6 +53,8 @@ Some configuration parameters are available from the Configuration editor of the
 * ``enabled`` Enable / disable the extension without having to uninstall it. Value can be ``true`` or ``false``.
 * ``all_entries_opened`` Open all messages by default instead of only the first 2. Value can be ``true`` or ``false``.
 * ``reverse_order`` Display messages in a chronological order. Value can be ``true`` or ``false``.
+* ``disabled_in_backoffice`` Disable rendering in the admin. console. Value can be `true` or `false`.
+* ``disabled_in_portals`` Disable rendering in the end-user portals. Value can be `true` or `false`.
 * ``open_all_icon`` CSS classes of the *open* icon, allows you to choose any FontAwesome icon. Value must be a string of CSS classes separated by a space (eg. ``'fas fa-book-open'``).
 * ``close_all_icon`` CSS classes of the *close* icon, allows you to choose any FontAwesome icon. Value must be a string of CSS classes separated by a space (eg. ``'fas fa-book'``).
 * ``icons_separator`` Separator of the 2 icons. Value must be a string (eg. ``'-'``).
@@ -63,6 +65,8 @@ Some configuration parameters are available from the Configuration editor of the
   'enabled' => true,
   'all_entries_opened' => false,
   'reverse_order' => false,
+  'disabled_in_backoffice' => false,
+  'disabled_in_portals' => false,
   'open_all_icon' => 'fas fa-book-open',
   'close_all_icon' => 'fas fa-book',
   'icons_separator' => '-',
