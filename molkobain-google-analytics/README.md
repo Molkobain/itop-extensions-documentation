@@ -8,6 +8,11 @@
 * [Configuration](#configuration)
 * [Change log](CHANGELOG.md)
 
+## Support
+If you like this project, you can buy me beer, always appreciated! 🍻😁
+
+[![Donate](https://img.shields.io/static/v1?label=Donate&message=Molkobain%20I/O&color=green&style=flat&logo=paypal)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BZR88J33D4RG6&source=url)
+
 ## Description
 Enable Google Analytics reporting on your iTop instance within seconds! Just put your tracking code in the configuration file and your are good to go. Reporting can be enabled on both the admin. console and the end-user portal.
 

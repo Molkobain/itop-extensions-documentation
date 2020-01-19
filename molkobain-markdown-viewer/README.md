@@ -10,7 +10,7 @@
 * [Change log](CHANGELOG.md)
 
 ## Description
-Easily edit fields in Markdown without any modification to your datamodel!
+Easily edit fields in Markdown without any modification to your datamodel! Perfect for FAQs and many others objects 👌
 
 Advanced features support such as headings, emphasis, lists, images, hyperlinks, highlighting, code formatting...
 
@@ -37,7 +37,7 @@ You can try this extension on the online demo. There are already some FAQs with 
 Compatible with iTop 2.4+
 
 ## Dependencies
-* Module `molkobain-handy-framework/1.2.4`
+* Module `molkobain-handy-framework/1.3.0`
 * Module `molkobain-newsroom-provider/1.0.1`
 
 *Note: All dependencies are included in the `dist/` folder, so all you need to do is follow the installation section below.*
@@ -76,6 +76,10 @@ Some configuration parameters are available from the Configuration editor of the
 ),
 ```
 
+## Contributors
+I would like to give a special thank you to the people who contributed to this:
+ - Bostoen, Jeffrey a.k.a @jbostoen
+ 
 ## Licensing
 This extension is under [AGPLv3](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License).
 

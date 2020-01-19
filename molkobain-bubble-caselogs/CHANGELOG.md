@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.3.0] - 2020-01-19
+### Changed
+- Add compatibility with iTop 2.7+
+
 ## [1.2.2] - 2019-11-30
 ### Changed
 - Fix visual glitch when loading formatted caselog from server

@@ -29,9 +29,9 @@ You can try this extension on the online demo. There is already a user request w
 Compatible with iTop 2.4+
 
 ## Dependencies
-* Module `molkobain-fontawesome5-pack/1.1.1`
-* Module `molkobain-handy-framework/1.2.4`
-* Module `molkobain-newsroom-provider/1.0.2`
+* Module `molkobain-fontawesome5-pack`
+* Module `molkobain-handy-framework`
+* Module `molkobain-newsroom-provider`
 
 ## Downloads
 Stable releases can be found on [Molkobain I/O](https://www.molkobain.com/product/bubble-caselogs/).

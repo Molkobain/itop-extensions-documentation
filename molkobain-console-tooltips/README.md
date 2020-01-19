@@ -8,6 +8,11 @@
 * [Configuration](#configuration)
 * [Change log](CHANGELOG.md)
 
+## Support
+If you like this project, you can buy me beer, always appreciated! 🍻😁
+
+[![Donate](https://img.shields.io/static/v1?label=Donate&message=Molkobain%20I/O&color=green&style=flat&logo=paypal)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BZR88J33D4RG6&source=url)
+
 ## Description
 Display a tooltip on object's attributes (console only). A ? is added next to the attribute's label to indicate that a description is available for an attribute.
 
@@ -21,15 +26,15 @@ As part of the standard datamodel, only few fields have such description documen
 
 *Note: By default iTop has not much descriptions, if you want to add some, you have to add dictionary entries.*
 
-![Description decoration](docs/mct-object-01.png)
-![Description tooltip](docs/mct-object-02.png)
+![Description decoration](docs/mct-object-01.PNG)
+![Description tooltip](docs/mct-object-02.PNG)
 
 ## Compatibility
 Compatible with iTop 2.3+
 
 ## Dependencies
-* Module `molkobain-handy-framework/1.0.0`
-* Module `molkobain-newsroom-provider/1.0.0`
+* Module `molkobain-handy-framework/1.3.0`
+* Module `molkobain-newsroom-provider/1.0.1`
 
 *Note: All dependencies are included in the `dist/` folder, so all you need to do is follow the installation section below.*
 

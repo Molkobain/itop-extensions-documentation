@@ -8,6 +8,11 @@
 * [Configuration](#configuration)
 * [Change log](CHANGELOG.md)
 
+## Support
+If you like this project, you can buy me beer, always appreciated! 🍻😁
+
+[![Donate](https://img.shields.io/static/v1?label=Donate&message=Molkobain%20I/O&color=green&style=flat&logo=paypal)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BZR88J33D4RG6&source=url)
+
 ## Description
 Have a better user experience with caselogs by being able to open / close all entries at once.
 
@@ -23,8 +28,8 @@ This extension simply adds 2 buttons next to the caselog title, in both the cons
 Compatible with iTop 2.4+
 
 ## Dependencies
-* Module `molkobain-fontawesome5-pack/1.1.1`
-* Module `molkobain-handy-framework/1.2.4`
+* Module `molkobain-fontawesome5-pack/1.2.0`
+* Module `molkobain-handy-framework/1.3.0`
 * Module `molkobain-newsroom-provider/1.0.0`
 
 *Note: All dependencies are included in the `dist/` folder, so all you need to do is follow the installation section below.*

@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.2.0] - 2020-01-07
+### Changed
+- Add compatibility with iTop 2.7+
+
 ## [1.1.1] - 2019-07-24
 ### Changed
 - Update dependencies to include their fixes
@@ -26,7 +30,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Enables tooltip in the admin console
 - Add compatibility with iTop 2.3+
 
-[Unreleased]: https://github.com/Molkobain/itop-console-tooltips/compare/v1.1.1...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-console-tooltips/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/Molkobain/itop-console-tooltips/releases/tag/v1.2.0
 [1.1.1]: https://github.com/Molkobain/itop-console-tooltips/releases/tag/v1.1.1
 [1.1.0]: https://github.com/Molkobain/itop-console-tooltips/releases/tag/v1.1.0
 [1.0.2]: https://github.com/Molkobain/itop-console-tooltips/releases/tag/v1.0.2

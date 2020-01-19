@@ -5,6 +5,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## Unreleased
 
+## [1.3.0] - 2020-01-15
+### Added
+- Add support for grid layout on enclosures
+
+### Changed
+- Upgrade dependencies
+
 ## [1.2.0] - 2019-11-12
 ### Added
 - Add configuration parameter to customize devices colors ('custom_device_colors')
@@ -34,7 +41,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/Molkobain/itop-datacenter-view-extended/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-datacenter-view-extended/compare/v1.3.0...HEAD
+[1.3.0]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.3.0
 [1.2.0]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.2.0
 [1.1.1]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.1.1
 [1.1.0]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.1.0
