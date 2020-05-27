@@ -5,6 +5,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## Unreleased
 
+## [1.4.2] - 2020-04-22
+### Changed
+- Fix "division by zero" warning
+
+## [1.4.1] - 2020-03-23
+### Changed
+- Fix contracted power precision to 3 digits
+
+## [1.4.0] - 2020-03-04
+### Added
+- Add power consumption attributes to the rack class
+
 ## [1.3.0] - 2020-01-15
 ### Added
 - Add support for grid layout on enclosures
@@ -41,7 +53,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/Molkobain/itop-datacenter-view-extended/compare/v1.3.0...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-datacenter-view-extended/compare/v1.4.1...HEAD
+[1.4.1]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.4.1
+[1.4.0]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.4.0
 [1.3.0]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.3.0
 [1.2.0]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.2.0
 [1.1.1]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.1.1
