@@ -18,6 +18,7 @@ Choose an extension below to get started! 🤓
 * [FontAwesome 5 pack](molkobain-fontawesome5-pack): Use new icon sets for both portal & console.
 * [Google analytics](molkobain-google-analytics): Enable Google Analytics reporting on your iTop instance within seconds!
 * [Markdown viewer](molkobain-markdown-viewer): Edit attributes in Markdown, view them as HTML.
+* [Multiple timezones support](molkobain-multiple-timezones-support): Allow users to view or edit dates & times in their own timezone instead of the server's default one.
 
 If you like this project, you can buy me beer, always appreciated! 🍻😁
 
