@@ -5,6 +5,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## Unreleased
 
+## [1.5.0] - 2020-06-03
+### Added
+- Add weight capacity for racks and enclosures
+- Add expected power requirement for racks and enclosures
+- Add typology and basic hierarchy on Location to prepare rooms graphical view
+
+### Changed
+- Rework the enclosure properties presentation
+- Show devices' label vertically on narrow devices
+- Upgrade dependencies
+- Change a bunch of method names (that should only be used by this extension)
+
 ## [1.4.2] - 2020-04-22
 ### Changed
 - Fix "division by zero" warning
