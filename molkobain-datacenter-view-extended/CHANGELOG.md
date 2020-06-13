@@ -5,11 +5,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## Unreleased
 
-## [1.5.0] - 2020-06-03
+## [1.5.0] - 2020-06-14
 ### Added
 - Add weight capacity for racks and enclosures
 - Add expected power requirement for racks and enclosures
 - Add typology and basic hierarchy on Location to prepare rooms graphical view
+- Add filter panel to highlight devices based on their name / serial number / asset number
 
 ### Changed
 - Rework the enclosure properties presentation
