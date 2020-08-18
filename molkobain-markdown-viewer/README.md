@@ -63,6 +63,7 @@ Out of the box this extension doesn't change any attributes, you have to configu
 Some configuration parameters are available from the Configuration editor of the console:
 * ``enabled`` Enable / disable the extension without having to uninstall it. Value can be ``true`` or ``false``.
 * ``markdown_attributes`` Class attributes to enable as Markdown. Value must be an array of classes, each containing an array of the attributes you want to render as Markdown. Default value is none, you have to set which ones you want!
+* ``markdown_options`` Allow to set the options of the Markdown converter ([Showdown.js](https://github.com/showdownjs/showdown)), check the dedicated [wiki page](https://github.com/showdownjs/showdown) to see them all.
 
 *Example:*
 ```
@@ -72,6 +73,9 @@ Some configuration parameters are available from the Configuration editor of the
     'Service' => array('description'),
     'ServiceSubcategory' => array('description'),
     'FAQ' => array('summary', 'description'),
+  ),
+  'markdown_options' => array(
+    'tables' => true,
   ),
 ),
 ```
