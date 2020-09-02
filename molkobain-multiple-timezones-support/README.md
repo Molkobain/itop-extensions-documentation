@@ -47,10 +47,13 @@ Any dates & times attributes in the UI will automatically be converted, a small 
 ![](docs/mmts-portal-lists.png)
 
 ## Limitations
+**IMPORTANT: Before buying it, make sure you have read the following limitations.**
+
 For the moment some parts of the application are NOT compatible with the timezones:
 - Notifications
 - Imports / exports
 - REST/JSON API
+- Tables that are automatically refreshed
 
 ## Compatibility
 Only compatible with iTop 2.7+
