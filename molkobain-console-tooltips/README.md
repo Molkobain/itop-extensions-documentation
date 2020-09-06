@@ -68,6 +68,15 @@ Some configuration parameters are available from the Configuration editor of the
 ),
 ```
 
+### Multi-line tooltips
+For multi-line tooltips, just put regular line breaks (not HTML) in your dictionnary file:
+
+```
+'Class:Rack/Attribute:nb_u+' => 'Height in units (U) of the rack
+
+Note: Standard racks have 42U',
+```
+
 ## Licensing
 This extension is under [AGPLv3](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License).
 
