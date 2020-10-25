@@ -31,7 +31,8 @@ You can try this extension on the online demo. There is already a user request w
 *Note: Mind to logout before switching between console & portal.*
 
 ## Compatibility
-Compatible with iTop 2.4+
+Compatible with iTop 2.4 to 2.7\
+Obsolete for iTop 3.0+ as it is now directly included in iTop 🙌
 
 ## Dependencies
 * Module `molkobain-fontawesome5-pack`

@@ -25,7 +25,8 @@ This extension simply adds 2 buttons next to the caselog title, in both the cons
 ![Portal example 02](docs/mct-portal-example-02.png)
 
 ## Compatibility
-Compatible with iTop 2.4+
+Compatible with iTop 2.4 to 2.7\
+Obsolete for iTop 3.0+ as it is now directly included in iTop 🙌
 
 ## Dependencies
 * Module `molkobain-fontawesome5-pack/1.2.0`
