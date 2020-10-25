@@ -30,7 +30,8 @@ As part of the standard datamodel, only few fields have such description documen
 ![Description tooltip](docs/mct-object-02.PNG)
 
 ## Compatibility
-Compatible with iTop 2.3+
+Compatible with iTop 2.3 to 2.7\
+Obsolete for iTop 3.0+ as it is now directly included in iTop 🙌
 
 ## Dependencies
 * Module `molkobain-handy-framework/1.3.0`
