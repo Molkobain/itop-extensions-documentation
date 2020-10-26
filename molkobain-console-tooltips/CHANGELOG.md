@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.2.1] - 2020-10-26
+### Changed
+- Fix multi-line toltips with some line endings
+- Fix XSS vulnerability
+
 ## [1.2.0] - 2020-09-06
 ### Added
 - Add support for multi-line tooltips
@@ -35,7 +40,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Enables tooltip in the admin console
 - Add compatibility with iTop 2.3+
 
-[Unreleased]: https://github.com/Molkobain/itop-console-tooltips/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-console-tooltips/compare/v1.2.1...HEAD
+[1.2.1]: https://github.com/Molkobain/itop-console-tooltips/releases/tag/v1.2.1
 [1.2.0]: https://github.com/Molkobain/itop-console-tooltips/releases/tag/v1.2.0
 [1.1.2]: https://github.com/Molkobain/itop-console-tooltips/releases/tag/v1.1.2
 [1.1.1]: https://github.com/Molkobain/itop-console-tooltips/releases/tag/v1.1.1
