@@ -1,4 +1,4 @@
-👋 [Available on Molkobain I/O](https://www.molkobain.com/product/bubble-caselogs/)
+👋 Available on [iTop Hub](https://store.itophub.io/en_US/products/molkobain-bubble-caselogs) and [Molkobain I/O](https://www.molkobain.com/product/bubble-caselogs/)
 
 # iTop extension: molkobain-bubble-caselogs
 * [Description](#description)
@@ -78,6 +78,12 @@ Some configuration parameters are available from the Configuration editor of the
   'icons_separator' => '-',
 ),
 ```
+
+## Contributors
+I would like to give a special thank you to those who contributed to this project, including:
+
+### Aliases
+- @pcadeot
 
 ## Licensing
 This extension is bound by the license you purchased. A license grants you a non-exclusive and non-transferable right to use and incorporate the item in your personal or commercial projects. There are several [licenses available](https://www.molkobain.com/usage-licenses/).
