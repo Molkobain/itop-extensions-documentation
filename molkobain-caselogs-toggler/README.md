@@ -18,7 +18,7 @@ Have a better user experience with caselogs by being able to open / close all en
 
 This extension simply adds 2 buttons next to the caselog title, in both the console & portal.
 
-*Note: Screenshots feature the **[Bubble caselogs](https://www.molkobain.com/product/bubble-caselogs/)** extension (which changes the caselog entries look & feel) but is not part of this one.*
+*Note: For an even better UX, check the **[Bubble caselogs](https://www.molkobain.com/product/bubble-caselogs/)** extension which changes the caselog entries look & feel.*
 
 ![Portal example 01](docs/mct-portal-example-01.png)
 

@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.5.2] - 2021-02-13
+### Changed
+- Update dependencies to include their fixes
+
 ## [1.5.1] - 2020-03-22
 ### Changed
 - Update dependencies to include their fixes
@@ -58,7 +62,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Changed
 - Add compatibility with iTop 2.4+
 
-[Unreleased]: https://github.com/Molkobain/itop-caselogs-toggler/compare/v1.5.1...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-caselogs-toggler/compare/v1.5.2...HEAD
+[1.5.2]: https://github.com/Molkobain/itop-caselogs-toggler/releases/tag/v1.5.2
 [1.5.1]: https://github.com/Molkobain/itop-caselogs-toggler/releases/tag/v1.5.1
 [1.5.0]: https://github.com/Molkobain/itop-caselogs-toggler/releases/tag/v1.5.0
 [1.4.1]: https://github.com/Molkobain/itop-caselogs-toggler/releases/tag/v1.4.1
