@@ -21,7 +21,7 @@ Easily manage & visualize your racks, enclosures and datacenter devices.
 * See at a glace where your devices are.
 * Check which attached devices have no position set.
 * Toggle obsolete devices easily.
-* Full support of english, french & dutch languages.
+* Full support of english, french, dutch & german languages.
 * External applications like racktables or rackmonkey are no longer necessary to visualize your data.
 
 ![Overview](docs/mdv-overview-01.png)
@@ -150,7 +150,7 @@ Compatible with iTop 2.4+
 For people using both **Datacenter View Extended** and the great [TeemIP](https://www.teemip.net/) extension, you should consider using the [Datacenter view extended ❤ IPAM for iTop](https://github.com/Molkobain/itop-datacenter-view-extended-bridge-for-teemip) bridge for optimal integration.
 
 * **Generic Connection Devices and Interfaces** by @Schirrms:\
- For people using both this extension and the great [Generic Connection Devices and Interfaces](https://github.com/Schirrms/iTop-Generic-Connection) extension, you shoud consider using the [iTop-Generic-Connection-To-Datacenter-View](https://github.com/Schirrms/iTop-Generic-Connection-To-Datacenter-View) bridge for optimal integration.
+ For people using both this extension and the great [Generic Connection Devices and Interfaces](https://github.com/Schirrms/iTop-Generic-Connection) extension, you should consider using the [iTop-Generic-Connection-To-Datacenter-View](https://github.com/Schirrms/iTop-Generic-Connection-To-Datacenter-View) bridge for optimal integration.
 
 ## Dependencies
 * Module `molkobain-handy-framework`
@@ -229,10 +229,18 @@ Save the object and go back to the *rack*. The *server* will now appear in the *
 _Under construction_
 
 ## Contributors
-I would like to give a special thank you to the people who contributed to this:
+I would like to give a special thank you to the people who contributed to this
+
+### Names
  - Bostoen, Jeffrey a.k.a @jbostoen
  - Makhlouf, Hadi
+   
+### Aliases
  - @danama
+ - @Schirrms
+
+### Companies
+ - viwedis GmbH
 
 ## Licensing
 This extension is under [AGPLv3](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License).
