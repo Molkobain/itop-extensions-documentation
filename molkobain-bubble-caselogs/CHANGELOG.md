@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.4.1] - 2021-04-04
+### Changed
+- Fix user initials displayed as "?" for non latin alphabets (thanks to an anonymous russian user!)
+
 ## [1.4.0] - 2021-02-09
 ### Changed
 - Change bubbles colors to white to have something more neutral
@@ -55,7 +59,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Add configuration parameters to choose open / close all icons
 - Add messages count next to users count
 
-[Unreleased]: https://github.com/Molkobain/itop-bubble-caselogs/compare/v1.4.0...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-bubble-caselogs/compare/v1.4.1...HEAD
+[1.4.1]: https://github.com/Molkobain/itop-bubble-caselogs/releases/tag/v1.4.1
 [1.4.0]: https://github.com/Molkobain/itop-bubble-caselogs/releases/tag/v1.4.0
 [1.3.2]: https://github.com/Molkobain/itop-bubble-caselogs/releases/tag/v1.3.2
 [1.3.1]: https://github.com/Molkobain/itop-bubble-caselogs/releases/tag/v1.3.1

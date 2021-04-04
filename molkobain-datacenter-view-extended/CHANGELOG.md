@@ -5,6 +5,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## Unreleased
 
+## [1.6.0] - 2021-03-31
+### Added
+- Add config. parameter "display_consistency_checks" to display or not consistency checks on an element update. Values can be true|false, default is true.
+
+### Changed
+- Rename config. parameter "enable_consistency_checks" to "enforce_consistency_checks".
+
 ## [1.5.0] - 2020-06-14
 ### Added
 - Add weight capacity for racks and enclosures

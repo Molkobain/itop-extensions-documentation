@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.3.0] - 2021-04-04
+### Changed
+- Upgrade to FontAwesome v5.15.3
+
 ## [1.2.0] - 2019-12-31
 ### Changed
 - Add compatibility with iTop 2.7+ (Symfony portal)
@@ -26,7 +30,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Add full compatibility with iTop 2.4+
 - Add partial compatibility with iTop 2.3 (admin. console only)
 
-[Unreleased]: https://github.com/Molkobain/itop-fontawesome5-pack/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-fontawesome5-pack/compare/v1.3.0...HEAD
+[1.3.0]: https://github.com/Molkobain/itop-fontawesome5-pack/releases/tag/v1.3.0
 [1.2.0]: https://github.com/Molkobain/itop-fontawesome5-pack/releases/tag/v1.2.0
 [1.1.1]: https://github.com/Molkobain/itop-fontawesome5-pack/releases/tag/v1.1.1
 [1.1.0]: https://github.com/Molkobain/itop-fontawesome5-pack/releases/tag/v1.1.0
