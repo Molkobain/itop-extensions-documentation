@@ -232,7 +232,8 @@ _Under construction_
 I would like to give a special thank you to the people who contributed to this
 
 ### Names
- - Bostoen, Jeffrey a.k.a @jbostoen
+ - Abello, Stephen  a.k.a [@steffunky](https://github.com/steffunky)
+ - Bostoen, Jeffrey a.k.a [@jbostoen](https://github.com/jbostoen)
  - Makhlouf, Hadi
    
 ### Aliases
@@ -240,7 +241,7 @@ I would like to give a special thank you to the people who contributed to this
  - @Schirrms
 
 ### Companies
- - viwedis GmbH
+ - [viwedis GmbH](https://www.viwedis.de/)
 
 ## Licensing
 This extension is under [AGPLv3](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License).

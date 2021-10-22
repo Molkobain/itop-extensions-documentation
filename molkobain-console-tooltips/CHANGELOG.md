@@ -5,6 +5,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.3.0] - 2021-10-20
+### Changed
+- Ensure compatibility with iTop 3.0+ in case the module is not uninstalled (feature is now natively in iTop)
+- Update dependencies
+- Move FontAwesome to distributed module instead on embedding it
+
 ## [1.2.2] - 2021-02-14
 ### Changed
 - Update dependencies to include their fixes
@@ -44,7 +50,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Enables tooltip in the admin console
 - Add compatibility with iTop 2.3+
 
-[Unreleased]: https://github.com/Molkobain/itop-console-tooltips/compare/v1.2.2...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-console-tooltips/compare/v1.3.0...HEAD
+[1.3.0]: https://github.com/Molkobain/itop-console-tooltips/releases/tag/v1.3.0
 [1.2.2]: https://github.com/Molkobain/itop-console-tooltips/releases/tag/v1.2.2
 [1.2.1]: https://github.com/Molkobain/itop-console-tooltips/releases/tag/v1.2.1
 [1.2.0]: https://github.com/Molkobain/itop-console-tooltips/releases/tag/v1.2.0
