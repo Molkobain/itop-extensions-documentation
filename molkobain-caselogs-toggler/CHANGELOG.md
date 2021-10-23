@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.6.0] - 2021-10-20
+### Changed
+- Ensure compatibility with iTop 3.0+ in case the module is not uninstalled (feature is now natively in iTop)
+
 ## [1.5.2] - 2021-02-13
 ### Changed
 - Update dependencies to include their fixes
@@ -62,7 +66,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Changed
 - Add compatibility with iTop 2.4+
 
-[Unreleased]: https://github.com/Molkobain/itop-caselogs-toggler/compare/v1.5.2...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-caselogs-toggler/compare/v1.6.0...HEAD
+[1.6.0]: https://github.com/Molkobain/itop-caselogs-toggler/releases/tag/v1.6.0
 [1.5.2]: https://github.com/Molkobain/itop-caselogs-toggler/releases/tag/v1.5.2
 [1.5.1]: https://github.com/Molkobain/itop-caselogs-toggler/releases/tag/v1.5.1
 [1.5.0]: https://github.com/Molkobain/itop-caselogs-toggler/releases/tag/v1.5.0

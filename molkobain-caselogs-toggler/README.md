@@ -29,9 +29,9 @@ Compatible with iTop 2.4 to 2.7\
 Obsolete for iTop 3.0+ as it is now directly included in iTop 🙌
 
 ## Dependencies
-* Module `molkobain-fontawesome5-pack/1.2.0`
-* Module `molkobain-handy-framework/1.3.0`
-* Module `molkobain-newsroom-provider/1.0.0`
+* Module `molkobain-fontawesome5-pack`
+* Module `molkobain-handy-framework`
+* Module `molkobain-newsroom-provider`
 
 *Note: All dependencies are included in the `dist/` folder, so all you need to do is follow the installation section below.*
 
