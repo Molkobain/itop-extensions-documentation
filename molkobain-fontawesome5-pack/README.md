@@ -40,6 +40,15 @@ Downloading it directly from the *Clone or download* will get you the version un
 ## Configuration
 No configuration needed.
 
+### Parameters
+Some configuration parameters are available from the Configuration editor of the console:
+* `enabled` Enable / disable the extension without having to uninstall it. Value can be `true` or `false`.
+
+*Default values:*
+```
+'enabled' => true,
+```
+
 ## How to
 ### Portal: Change a brick's icon
 Let's say that for example you would like to change the *New request* icon with [this one](https://fontawesome.com/icons/book-open?style=solid). Just alter the portal XML to change the ``/itop_design/module_designs/module_design[@id="<PORTAL_ID>"]/bricks/brick[@id="services"]/decoration_class/default`` tag value with *fas fa-book-open fa-2x*
