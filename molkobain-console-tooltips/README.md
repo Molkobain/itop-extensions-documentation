@@ -26,8 +26,8 @@ As part of the standard datamodel, only few fields have such description documen
 
 *Note: By default iTop has not much descriptions, if you want to add some, you have to add dictionary entries.*
 
-![Description decoration](docs/mct-object-01.PNG)
-![Description tooltip](docs/mct-object-02.PNG)
+![Description decoration](docs/mct-object-01.png)
+![Description tooltip](docs/mct-object-02.png)
 
 ## Compatibility
 Compatible with iTop 2.3 to 2.7\
