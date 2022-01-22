@@ -1,4 +1,4 @@
-👋 [Available on Molkobain I/O](https://www.molkobain.com/product/caselogs-toggler/)
+👋 Available on [iTop Hub](https://store.itophub.io/en_US/products/molkobain-caselogs-toggler) and [Molkobain I/O](https://www.molkobain.com/product/caselogs-toggler/)
 
 # iTop extension: molkobain-caselogs-toggler
 * [Description](#description)

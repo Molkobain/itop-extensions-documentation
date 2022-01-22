@@ -10,6 +10,8 @@
 * [Configuration](#configuration)
 * [How to](#how-to)
 * [Change log](CHANGELOG.md)
+* [Contributors](#contributors)
+* [Third parties](#third-parties)
 
 ## Support
 If you like this project, you can buy me beer, always appreciated! 🍻😁
@@ -21,7 +23,7 @@ Easily manage & visualize your racks, enclosures and datacenter devices.
 * See at a glace where your devices are.
 * Check which attached devices have no position set.
 * Toggle obsolete devices easily.
-* Full support of english, french, dutch & german languages.
+* Full support of english, french, dutch, german, czech & swedish languages.
 * External applications like racktables or rackmonkey are no longer necessary to visualize your data.
 
 ![Overview](docs/mdv-overview-01.png)
@@ -143,7 +145,7 @@ You can try this extension on the online demo. There are already some racks, enc
 
 ## Compatibility
 ### iTop versions
-Compatible with iTop 2.4+
+Compatible with iTop 2.6+
 
 ### Other extensions
 * **TeemIP** by @xtophe38:\
@@ -235,6 +237,7 @@ I would like to give a special thank you to the people who contributed to this
  - Abello, Stephen  a.k.a [@steffunky](https://github.com/steffunky)
  - Bostoen, Jeffrey a.k.a [@jbostoen](https://github.com/jbostoen)
  - Makhlouf, Hadi
+ - Sedlak, Zdenek a.k.a [@xmstspider](https://github.com/xmstspider)
    
 ### Aliases
  - @danama
@@ -245,3 +248,8 @@ I would like to give a special thank you to the people who contributed to this
 
 ## Licensing
 This extension is under [AGPLv3](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License).
+
+## Third parties
+This extension embeds some third-party resources:
+  * Zero-U panel icon (USB memory stick) comes from [Icons8](https://icons8.com/icon/FlnYHAW3wYBn/usb-memory-stick)
+  * Some class icons come from [Icons8](https://icons8.com)

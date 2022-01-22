@@ -5,6 +5,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## Unreleased
 
+## [1.7.0] - 2022-01-16
+### Added
+- Add "access permissions" on Location and FunctionalCI to document which Contact can access them and how
+- Add counter on unmounted panels
+- Add Czech and Swedish translations on most of the UI
+
+### Changed
+- Raise iTop min. version to 2.6.0
+
 ## [1.6.0] - 2021-03-31
 ### Added
 - Add config. parameter "display_consistency_checks" to display or not consistency checks on an element update. Values can be true|false, default is true.
