@@ -8,30 +8,30 @@ It includes everything the simple version has, plus advanced features / customiz
 
 ## Documentation
 ### Features
-* [Graphical tab overview](docs/features/graphical-tab-overview.md)
-* 🚧 [Drag & Drop](docs/features/drag-and-drop.md)
-* 🚧 [Complex enclosures support (grid system)](docs/features/complex-enclosures.md)
-* 🚧 [Occupancy rates](docs/features/occupancy-rates.md)
-* 🚧 [Power capacity](docs/features/power-capacity.md)
-* 🚧 [Weight capacity](docs/features/weight-capacity.md)
-* 🚧 [Reserved slots](docs/features/reserved-slots.md)
-* 🚧 [Zero-U devices](docs/features/zero-u-devices.md)
-* 🚧 [Consistency checks](docs/features/consistency-checks.md)
-* 🚧 [Audit rules](docs/features/audit-rules.md)
-* 🚧 [Misc. options](docs/features/misc-options.md)
+  * [Graphical tab overview](docs/features/graphical-tab-overview.md)
+  * [Drag & Drop](docs/features/drag-and-drop.md)
+  * 🚧 [Complex enclosures support (grid system)](docs/features/complex-enclosures.md)
+  * 🚧 [Occupancy rates](docs/features/occupancy-rates.md)
+  * 🚧 [Power capacity](docs/features/power-capacity.md)
+  * 🚧 [Weight capacity](docs/features/weight-capacity.md)
+  * 🚧 [Reserved slots](docs/features/reserved-slots.md)
+  * 🚧 [Zero-U devices](docs/features/zero-u-devices.md)
+  * 🚧 [Consistency checks](docs/features/consistency-checks.md)
+  * 🚧 [Audit rules](docs/features/audit-rules.md)
+  * 🚧 [Misc. options](docs/features/misc-options.md)
 
 ### Installation & configuration
-* [Installation](docs/configuration/installation.md)
-* [Configuration parameters](docs/configuration/configuration-parameters.md)
+  * [Installation](docs/configuration/installation.md)
+  * [Configuration parameters](docs/configuration/configuration-parameters.md)
 
 ### Tutorials
-* 🚧 [How to position elements graphically]()
-* 🚧 [How to change a class color]()
-* 🚧 [How to use / position my own datamodel classes](docs/tutorials/custom-datamodel-classes.md)
+  * 🚧 [How to position elements graphically]()
+  * 🚧 [How to change a class color]()
+  * 🚧 [How to use / position my own datamodel classes](docs/tutorials/custom-datamodel-classes.md)
 
 ## Online demo
 You can try this extension on the online demo. There are already some racks, enclosures and devices mounted as an example. Just click on the links below to access it:
-* [Administration console](http://mbc.itop.molkobain.com/pages/UI.php?operation=details&class=Rack&id=15&c[menu]=SearchCIs&auth_user=admin&auth_pwd=admin#tabbedContent_0=8) (admin / admin)
+  * [Administration console](http://mbc.itop.molkobain.com/pages/UI.php?operation=details&class=Rack&id=15&c[menu]=SearchCIs&auth_user=admin&auth_pwd=admin#tabbedContent_0=8) (admin / admin)
 
 ## Licensing
 This extension is not open source and is bound by the license choose you purchased.There are several licenses available, see [https://www.molkobain.com/usage-licenses](https://www.molkobain.com/usage-licenses) for more information.
