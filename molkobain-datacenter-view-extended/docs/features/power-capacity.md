@@ -12,7 +12,7 @@ In the "Properties" tab of an host element (rack or eclosure), a new "Power" sec
 
 On racks and enclosures
 
-  * `Expected max. power (kW)`: Maximm expected power consumption of the element itself, should be according to the manufacturer specifications
+  * `Expected max. power (kW)`: Maximum expected power consumption of the element itself, should be set according to the manufacturer specifications
 
 On racks only
 

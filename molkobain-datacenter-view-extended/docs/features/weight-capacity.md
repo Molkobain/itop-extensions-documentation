@@ -17,5 +17,5 @@ On both racks and enclosures
 
 On racks only
 
-  * `Max. allowed weight (kg)`: Maximum weight allowed for that element, should be according to the manufacturer specifications
+  * `Max. allowed weight (kg)`: Maximum weight allowed for that element, should be set according to the manufacturer specifications
   * `Use weight capacity (%)`: Ratio of `Cumulated weight` over `Max. allowed weight`
