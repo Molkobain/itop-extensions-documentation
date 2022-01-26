@@ -19,7 +19,7 @@ Choose an extension below to get started! 🤓
   * [Markdown viewer](molkobain-markdown-viewer): Edit attributes in Markdown, view them as HTML.
   * [Multiple timezones support](molkobain-multiple-timezones-support): Allow users to view or edit dates & times in their own timezone instead of the server's default one.
 
-_Extensions integrated in iTop 3.0+_
+_Extensions integrated in iTop 3.0+, meaningful only for iTop 2.7 and older:_
 
 * [Bubble caselogs](molkobain-bubble-caselogs): Change the look and feel of the caselogs to make it look like modern messaging app.
 * [Caselogs toggler](molkobain-caselogs-toggler): Finally a way to open / close all caselog entries at once!
