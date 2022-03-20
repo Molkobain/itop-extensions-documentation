@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.1.0]
+### Added
+- Add compatibility with iTop 3.0.1+ (but NOT iTop 3.0.0 due to a regression in the app APIs 😕)
+- **[iTop 3.0+ only]** Add timezone display in tables that are automatically refreshed
+
 ## [1.0.1] - 2021-03-10
 ### Changed
 - Fixed multiple timezone icons in stimulus forms
@@ -13,6 +18,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 - First version
 
-[Unreleased]: https://github.com/Molkobain/itop-multiple-timezones-support/compare/v1.0.1...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-multiple-timezones-support/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.1.0
 [1.0.1]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.0.1
 [1.0.0]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.0.0

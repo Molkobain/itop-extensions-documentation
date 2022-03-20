@@ -53,10 +53,11 @@ For the moment some parts of the application are NOT compatible with the timezon
 - Notifications
 - Imports / exports
 - REST/JSON API
-- Tables that are automatically refreshed
+- **[iTop 2.7.x]** Tables that are automatically refreshed
 
 ## Compatibility
-Only compatible with iTop 2.7+
+Compatible with iTop 2.7.x and 3.0.**1**+. \
+**NOT** compatible with iTop 3.0.**0** due to a regression in the app APIs. 😕
 
 ## Downloads
 Stable releases can only be found on [Molkobain I/O](https://www.molkobain.com/product/multiple-timezones-support/).
