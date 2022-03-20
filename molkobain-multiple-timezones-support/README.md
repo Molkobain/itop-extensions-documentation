@@ -16,8 +16,9 @@ If you like this project, you can buy me beer, always appreciated! 🍻😁
 
 ## Description
 Allow users to see or edit dates & times in their own timezone instead of the server's default one. Perfect for:
- - Companies with employees or customers accross several countries
- - Planning changes safely with everyone seeing the right time (no more math!)
+
+  * Companies with employees or customers accross several countries
+  * Planning changes safely with everyone seeing the right time (no more math!)
 
 ![Description decoration](docs/mmts-wizard-01.png)
 
@@ -50,10 +51,11 @@ Any dates & times attributes in the UI will automatically be converted, a small 
 **IMPORTANT: Before buying it, make sure you have read the following limitations.**
 
 For the moment some parts of the application are NOT compatible with the timezones:
-- Notifications
-- Imports / exports
-- REST/JSON API
-- **[iTop 2.7.x]** Tables that are automatically refreshed
+
+  * Notifications
+  * Imports / exports
+  * REST/JSON API
+  * **[iTop 2.7.x]** Tables that are automatically refreshed
 
 ## Compatibility
 Compatible with iTop 2.7.x and 3.0.**1**+. \
@@ -63,9 +65,10 @@ Compatible with iTop 2.7.x and 3.0.**1**+. \
 Stable releases can only be found on [Molkobain I/O](https://www.molkobain.com/product/multiple-timezones-support/).
 
 ## Installation
-* Unzip the extension
-* Copy the ``molkobain-multiple-timezones-support`` folder under ``<PATH_TO_ITOP>/extensions`` folder of your iTop
-* Run iTop setup & select extension *Multiple timezones support*
+
+  * Unzip the extension
+  * Copy the ``molkobain-multiple-timezones-support`` folder under ``<PATH_TO_ITOP>/extensions`` folder of your iTop
+  * Run iTop setup & select extension *Multiple timezones support*
 
 *Your folders should look like this*
 
@@ -76,8 +79,9 @@ No configuration needed, each user will be prompt to choose its timezone on next
 
 ### Parameters
 Some configuration parameters are available from the Configuration editor of the console:
-* `enabled` Enable / disable the extension without having to uninstall it. Value can be `true` or `false`.
-* `disabled_guis` Specify for which GUIs the extension should be disabled, for example if you only want to use it in the backoffice and not in the end-users portal. Values can be `backoffice`, `itop-portal` or any other portal instance ID.
+
+  * `enabled` Enable / disable the extension without having to uninstall it. Value can be `true` or `false`.
+  * `disabled_guis` Specify for which GUIs the extension should be disabled, for example if you only want to use it in the backoffice and not in the end-users portal. Values can be `backoffice`, `itop-portal` or any other portal instance ID.
 
 *Default values:*
 ```
@@ -87,5 +91,6 @@ Some configuration parameters are available from the Configuration editor of the
 
 ## Third parties
 This extension embeds some third-party resources:
-- [Moment Timezone](https://momentjs.com/timezone/) for dates & times manipulations
-- Cover image used in the wizard & documentation is from [RAStudio](https://www.vectorstock.com/royalty-free-vectors/vectors-by_RAStudio)
+
+  * [Moment Timezone](https://momentjs.com/timezone/) for dates & times manipulations
+  * Cover image used in the wizard & documentation is from [RAStudio](https://www.vectorstock.com/royalty-free-vectors/vectors-by_RAStudio)
