@@ -5,7 +5,7 @@
   * [Description](#description)
   * [Advanced features](#advanced-features-in-the-paid-version-)
   * [Online demo](#online-demo)
-  * [Downloads](#downloads)
+  * [Downloads](#download-the-extension)
   * [Installation & configuration](#installation--configuration)
   * [Tutorials](#tutorials)
   * [Contributors](#contributors)
@@ -56,7 +56,7 @@ You can try this extension on the online demo. There are already some racks, enc
 
   * [Administration console](http://mbc.itop.molkobain.com/pages/UI.php?operation=details&class=Rack&id=15&c[menu]=SearchCIs&auth_user=admin&auth_pwd=admin#tabbedContent_0=8) (admin / admin)
 
-## Downloads
+## Download the extension
 Stable releases can be found either on the [releases page](https://github.com/Molkobain/itop-datacenter-view/releases) or on [Molkobain I/O](https://www.molkobain.com/product/datacenter-view/).
 
 Downloading it directly from the *Clone or download* will get you the version under development which might be unstable.
