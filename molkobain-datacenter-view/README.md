@@ -100,9 +100,9 @@ Everything is included in the distributed packages, no extra effort needed.
 
 ### iTop modules
 
-  * Module [molkobain-handy-framework](https://github.com/Molkobain/molkobain-handy-framework)
-  * Module [molkobain-console-tooltips](https://github.com/Molkobain/molkobain-console-tooltips)
-  * Module [molkobain-newsroom-provider](https://github.com/Molkobain/molkobain-newsroom-provider)
+  * Module [molkobain-handy-framework](https://github.com/Molkobain/itop-handy-framework)
+  * Module [molkobain-console-tooltips](https://github.com/Molkobain/itop-console-tooltips)
+  * Module [molkobain-newsroom-provider](https://github.com/Molkobain/itop-newsroom-provider)
 
 ### Third parties
 
