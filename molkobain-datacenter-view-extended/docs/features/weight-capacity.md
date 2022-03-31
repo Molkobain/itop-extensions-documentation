@@ -1,3 +1,5 @@
+<button onclick="history.back()">Back</button>
+
 # Weight capacity
 
 Keep an eye on your racks & enclosure weight capacity:

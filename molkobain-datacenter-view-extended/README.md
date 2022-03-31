@@ -7,7 +7,7 @@
 It includes everything the simple version has, plus advanced features / customizations.
 
 ## Documentation
-### Features
+### Features, usages, Q&As
   * [Graphical tab overview](docs/features/graphical-tab-overview.md)
   * [Drag & Drop](docs/features/drag-and-drop.md)
   * 🚧 [Complex enclosures support (grid system)](docs/features/complex-enclosures.md)
@@ -20,9 +20,14 @@ It includes everything the simple version has, plus advanced features / customiz
   * 🚧 [Audit rules](docs/features/audit-rules.md)
   * 🚧 [Misc. options](docs/features/misc-options.md)
 
+### Limitations
+#### Downgrade to simple version
+If you want to remove the extended version of the extension to only keep the simple version, mind unlinking all elements off the hosts' (racks and enclosures) **rear panel** prior to it, otherwise elements from the rear panel will fallback on the front panel, overlapping genuine elements of the front panel.
+
 ### Installation & configuration
   * [Installation](docs/configuration/installation.md)
   * [Configuration parameters](docs/configuration/configuration-parameters.md)
+  * [Change log](../CHANGELOG.md)
 
 ### Tutorials
   * 🚧 [How to position elements graphically]()
@@ -34,7 +39,7 @@ You can try this extension on the online demo. There are already some racks, enc
   * [Administration console](http://mbc.itop.molkobain.com/pages/UI.php?operation=details&class=Rack&id=15&c[menu]=SearchCIs&auth_user=admin&auth_pwd=admin#tabbedContent_0=8) (admin / admin)
 
 ## Licensing
-This extension is not open source and is bound by the license choose you purchased.There are several licenses available, see [https://www.molkobain.com/usage-licenses](https://www.molkobain.com/usage-licenses) for more information.
+This extension is not open source and is bound by the license choose you purchased. There are several licenses available, see [https://www.molkobain.com/usage-licenses](https://www.molkobain.com/usage-licenses) for more information.
 
 ## Third parties
 This extension embeds some third-party resources:

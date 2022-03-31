@@ -1,3 +1,5 @@
+<button onclick="history.back()">Back</button>
+
 # Installation
 
 ## Compatibility

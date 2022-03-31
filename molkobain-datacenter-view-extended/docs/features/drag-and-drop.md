@@ -1,3 +1,5 @@
+<button onclick="history.back()">Back</button>
+
 # Drag & Drop
 
 The most comfortable way is to position elements in their racks / enclosures is to place them at the right place using your mouse. To do so, just follow those 3 simple steps:

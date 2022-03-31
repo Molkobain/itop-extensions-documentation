@@ -1,3 +1,5 @@
+<button onclick="history.back()">Back</button>
+
 # Configuration parameters
 
 Some parameters are inherited from the simple version of the extension, others are from the extended version, but all are detailled below. \

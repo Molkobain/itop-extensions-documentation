@@ -1,3 +1,5 @@
+<button onclick="history.back()">Back</button>
+
 # Occupancy rates
 
 In the "Properties" tab of an host element (rack or eclosure), 2 new indicators are present to display the occupancy rate of each panel (front & rear). They are automatically updated when an element is positioned on the host or removed from it.

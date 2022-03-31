@@ -1,3 +1,5 @@
+<button onclick="history.back()">Back</button>
+
 # Power capacity
 
 Keep an eye on your racks power consumption:

@@ -1,3 +1,5 @@
+<button onclick="history.back()">Back</button>
+
 # Graphical tab overview
 
 The extension brings a new "Graphical view" tab on "host" elements (racks and enclosures). Here is an overview of what is available from this screen:
