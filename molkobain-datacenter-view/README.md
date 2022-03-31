@@ -64,6 +64,7 @@ Downloading it directly from the *Clone or download* will get you the version un
 ## Installation & configuration
 
   * [Installation](docs/configuration/installation.md)
+  * [Datamodel changes](docs/configuration/datamodel-changes.md)
   * [Configuration parameters](docs/configuration/configuration-parameters.md)
   * [Change log](CHANGELOG.md)
 
