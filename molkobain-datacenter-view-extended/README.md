@@ -16,6 +16,7 @@ It includes everything the simple version has, plus advanced features / customiz
   * [Weight capacity](docs/features/weight-capacity.md)
   * 🚧 [Reserved slots](docs/features/reserved-slots.md)
   * 🚧 [Zero-U devices](docs/features/zero-u-devices.md)
+  * 🚧 [Access permissions](docs/features/access-permissions.md)
   * 🚧 [Consistency checks](docs/features/consistency-checks.md)
   * 🚧 [Audit rules](docs/features/audit-rules.md)
   * 🚧 [Misc. options](docs/features/misc-options.md)
@@ -26,6 +27,7 @@ If you want to remove the extended version of the extension to only keep the sim
 
 ### Installation & configuration
   * [Installation](docs/configuration/installation.md)
+  * [Datamodel changes](docs/configuration/datamodel-changes.md)
   * [Configuration parameters](docs/configuration/configuration-parameters.md)
   * [Change log](../CHANGELOG.md)
 

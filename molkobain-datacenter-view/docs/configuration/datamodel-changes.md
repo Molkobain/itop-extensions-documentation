@@ -4,23 +4,11 @@
 
 The extension alters the standard datamodel, below is a summary of these modifications to help you integrate it with your own extensions.
 
-## New classes
-### LocationType
-
-  * Description: New typology to define the type of a `Location`, typically a room, a floor, a building, ...
-  * Parent: `Typology`
-
-#### Fields
-
-| Code           | Label     | Type               | Description                        |
-|----------------|-----------|--------------------|------------------------------------|
-| locations_list | Locations | AttributeLinkedSet | List of all locations of this type |
-
 ## Modified classes
 ### Location
 #### Fields
 
-| Code            | Change type           | Change description                     |
+| Code            | Change type           | Description                            |
 |-----------------|-----------------------|----------------------------------------|
 | locationtype_id | Added (force)         | External key to `LocationType`         |
 | parent_id       | Added (if not exists) | Hierarchical key to self (`Location`)  |
@@ -29,14 +17,14 @@ The extension alters the standard datamodel, below is a summary of these modific
 ### Rack
 #### Fields
 
-| Code | Change type         | Change description  |
+| Code | Change type         | Description         |
 |------|---------------------|---------------------|
 | nb_u | Replaced (redefine) | Height in units (U) |
 
 ### Enclosure
 #### Fields
 
-| Code       | Change type         | Change description                                                                        |
+| Code       | Change type         | Description                                                                               |
 |------------|---------------------|-------------------------------------------------------------------------------------------|
 | nb_u       | Replaced (redefine) | Height in units (U)                                                                       |
 | position_v | Added (define)      | Vertical position (U) of the enclosure in the rack (Must be the bottom position, not top) |
@@ -47,7 +35,7 @@ The `details` zlist is completely redefined to propose a nice presentation.
 ### DatacenterDevice
 #### Fields
 
-| Code       | Change type         | Change description                                                                                                                |
+| Code       | Change type         | Description                                                                                                                       |
 |------------|---------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | nb_u       | Replaced (redefine) | Height in units (U)                                                                                                               |
 | position_v | Added (define)      | Vertical position (U) of the device in the enclosure (or rack if mounted directly on int). (Must be the bottom position, not top) |
@@ -58,7 +46,7 @@ The `details` zlist is completely redefined to propose a nice presentation.
 ### PDU
 #### Fields
 
-| Code         | Change type    | Change description                                                                                                                |
+| Code         | Change type    | Description                                                                                                                       |
 |--------------|----------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | enclosure_id | Added (define) | `Enclosure` to which the `PDU` is attached to                                                                                     |
 | nb_u         | Added (define) | Height in units (U)                                                                                                               |
@@ -66,6 +54,18 @@ The `details` zlist is completely redefined to propose a nice presentation.
 
 #### Presentation
 The `details` zlist is completely redefined to propose a nice presentation.
+
+## New classes
+### LocationType
+
+* Description: New typology to define the type of a `Location`, typically a room, a floor, a building, ...
+* Parent: `Typology`
+
+#### Fields
+
+| Code           | Label     | Type               | Description                        |
+|----------------|-----------|--------------------|------------------------------------|
+| locations_list | Locations | AttributeLinkedSet | List of all locations of this type |
 
 ## Menus
 ### New menus
