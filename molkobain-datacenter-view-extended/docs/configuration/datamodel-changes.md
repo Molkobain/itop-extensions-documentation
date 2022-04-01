@@ -117,6 +117,17 @@ The `details` zlist is completely redefined to propose a nice presentation.
 The `details` zlist is completely redefined to propose a nice presentation.
 
 ## New classes
+### LocationType
+
+* Description: New typology to define the type of a `Location`, typically a room, a floor, a building, ...
+* Parent: `Typology`
+
+#### Fields
+
+| Code           | Label     | Type               | Description                        |
+|----------------|-----------|--------------------|------------------------------------|
+| locations_list | Locations | AttributeLinkedSet | List of all locations of this type |
+
 ### DatacenterSlot
 
   * Description: Class to represent specific usage of datacenter hosts' slots (racks, enclosure), see derivated classes.
