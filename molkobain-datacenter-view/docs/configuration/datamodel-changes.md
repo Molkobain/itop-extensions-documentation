@@ -12,7 +12,7 @@ The extension alters the standard datamodel, below is a summary of these modific
 |-----------------|-----------------------|----------------------------------------|
 | locationtype_id | Added (force)         | External key to `LocationType`         |
 | parent_id       | Added (if not exists) | Hierarchical key to self (`Location`)  |
-| locations_list  | Added (if not exists) | Linked set to other `Location` objects |
+| locations_list  | Added (if not exists) | Linked set to child `Location` objects |
 
 ### Rack
 #### Fields

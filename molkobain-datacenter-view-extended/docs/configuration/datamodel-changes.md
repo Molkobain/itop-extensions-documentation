@@ -14,7 +14,7 @@ _Note: The following includes datamodel changes from the simple version of the e
 |-------------------------|-----------------------|----------------------------------------|
 | locationtype_id         | Added (force)         | External key to `LocationType`         |
 | parent_id               | Added (if not exists) | Hierarchical key to self (`Location`)  |
-| locations_list          | Added (if not exists) | Linked set to other `Location` objects |
+| locations_list          | Added (if not exists) | Linked set to child `Location` objects |
 | accesspermissions_list  | Added (if not exists) | Linked set of access permissions       |
 
 ### FunctionalCI
@@ -130,7 +130,7 @@ The `details` zlist is completely redefined to propose a nice presentation.
 
 ### DatacenterSlot
 
-  * Description: Class to represent specific usage of datacenter hosts' slots (racks, enclosure), see derivated classes.
+  * Description: Class to represent specific usage of datacenter hosts' slots (racks, enclosure), see derived classes.
   * Parent: `cmdbAbstractObject`
 
 #### Fields

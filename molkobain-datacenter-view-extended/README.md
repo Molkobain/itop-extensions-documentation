@@ -29,7 +29,7 @@ If you want to remove the extended version of the extension to only keep the sim
   * [Installation](docs/configuration/installation.md)
   * [Datamodel changes](docs/configuration/datamodel-changes.md)
   * [Configuration parameters](docs/configuration/configuration-parameters.md)
-  * [Change log](../CHANGELOG.md)
+  * [Change log](./CHANGELOG.md)
 
 ### Tutorials
   * 🚧 [How to position elements graphically]()

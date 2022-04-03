@@ -10,21 +10,21 @@ The most comfortable way is to position elements in their racks / enclosures is 
 
 ![](../img/feat--drag-and-drop.png "Drag and drop overview")
 
-### Frequent questions
+## Frequent questions
 
-#### Why does the element reverts to its origin when I drop it?
+### Why does the element reverts to its origin when I drop it?
 This can happen for several reasons:
 
   * Element is dropped off limits of an host's panels
   * Element is overlapping host's limits
   * Element is overlapping another element
 
-#### Why can't I drag elements from the "Zero U devices" panel?
+### Why can't I drag elements from the "Zero U devices" panel?
 Zero U devices are not meant to be positioned on a specific U of the host as they do not fit the form factor. They are displayed here to help visualize what is in the host but cannot be dragged.
 
 _Typical zero U devices are USB drives, vertical PDUs, ..._
 
-#### Why are some of elements displayed in the "unmounted panels"?
+### Why are some of elements displayed in the "unmounted panels"?
 Any element displayed in these panels **is linked** to the currently displayed host (rack or enclosure) but is not positioned for one of the following reasons:
 
   * Element has no position defined (see its position attributes)
