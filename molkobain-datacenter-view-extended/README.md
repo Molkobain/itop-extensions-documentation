@@ -34,7 +34,7 @@ If you want to remove the extended version of the extension to only keep the sim
 ### Tutorials
   * 🚧 [How to position elements graphically]()
   * 🚧 [How to change a class color]()
-  * 🚧 [How to use / position my own datamodel classes](docs/tutorials/custom-datamodel-classes.md)
+  * [How to use / position my own datamodel classes](docs/tutorials/custom-datamodel-classes.md)
 
 ## Online demo
 You can try this extension on the online demo. There are already some racks, enclosures and devices mounted as an example. Just click on the links below to access it:
