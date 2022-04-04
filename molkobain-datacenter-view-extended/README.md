@@ -19,7 +19,7 @@ It includes everything the simple version has, plus advanced features / customiz
   * 🚧 [Access permissions](docs/features/access-permissions.md)
   * 🚧 [Consistency checks](docs/features/consistency-checks.md)
   * 🚧 [Audit rules](docs/features/audit-rules.md)
-  * 🚧 [Misc. options](docs/features/misc-options.md)
+  * [Misc. options](docs/features/misc-options.md)
 
 ### Limitations
 #### Downgrade to simple version
@@ -33,7 +33,6 @@ If you want to remove the extended version of the extension to only keep the sim
 
 ### Tutorials
   * 🚧 [How to position elements graphically]()
-  * 🚧 [How to change a class color]()
   * [How to use / position my own datamodel classes](docs/tutorials/custom-datamodel-classes.md)
 
 ## Online demo

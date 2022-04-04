@@ -22,7 +22,29 @@ In most cases, an enclosure' ("Grid") layout represents how devices are organize
 ![](../img/feat--enclosure-abstract-layout.png "Abstract layout")
 
 ## Custom colors
-Under construction
+
+The extension displays datacenter devices with specific colors depending on their classes to help identify them on the overview (blue for servers, red for network devices, ...)
+
+![](../img/feat--custom-colors.png)
+
+These colors can be changed in the extension's configuration parameters for both standard datamodel classes and your own datamodel classes. 
+Under the `custom_device_colors` parameter, simply add valid HTML colors for both `text` and `background` for each class you want to customize.
+
+```
+'molkobain-datacenter-view-extended' => array(
+    'custom_device_colors' => array(
+        'ExampleClassA' => array(
+            'text' => '#fff',
+            'background' => '#e87c1e',
+        ),
+        'ExampleClassB' => array(
+            'text' => '#fff',
+            'background' => '#ff0000',
+        ),
+    ),
+),
+```
+
 
 ## Custom datamodel classes
 
