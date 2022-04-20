@@ -65,14 +65,7 @@ Compatible with iTop 2.7.x and 3.0.**1**+. \
 Stable releases can only be found on [Molkobain I/O](https://www.molkobain.com/product/multiple-timezones-support/).
 
 ## Installation
-
-  * Unzip the extension
-  * Copy the ``molkobain-multiple-timezones-support`` folder under ``<PATH_TO_ITOP>/extensions`` folder of your iTop
-  * Run iTop setup & select extension *Multiple timezones support*
-
-*Your folders should look like this*
-
-![Extensions folder](docs/mmts-install.png)
+Installation procedure is the same as for any iTop extension, just follow the instruction on the iTop official documentation [here](https://www.itophub.io/wiki/page?id=extensions%3Ainstallation).
 
 ## Configuration
 No configuration needed, each user will be prompt to choose its timezone on next login.

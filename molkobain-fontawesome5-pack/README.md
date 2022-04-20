@@ -29,13 +29,7 @@ Stable releases can be found either on the [releases page](https://github.com/Mo
 Downloading it directly from the *Clone or download* will get you the version under development which might be unstable.
 
 ## Installation
-* Unzip the extension
-* Copy the ``molkobain-fontawesome5-pack`` folder under ``<PATH_TO_ITOP>/extensions`` folder of your iTop
-* Run iTop setup & select extension *Font Awesome 5*
-
-*Your folders should look like this*
-
-![Extensions folder](docs/mfp-install.png)
+Installation procedure is the same as for any iTop extension, just follow the instruction on the iTop official documentation [here](https://www.itophub.io/wiki/page?id=extensions%3Ainstallation).
 
 ## Configuration
 No configuration needed.

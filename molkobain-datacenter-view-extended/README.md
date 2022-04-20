@@ -1,4 +1,4 @@
-👋 [Available on Molkobain I/O](https://www.molkobain.com/product/datacenter-view/)
+👋 Available exclusively on [iTop Hub](https://store.itophub.io/en_US/products/molkobain-datacenter-view-extended)
 
 # iTop extension: molkobain-datacenter-view-extended
 

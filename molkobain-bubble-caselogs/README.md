@@ -43,13 +43,7 @@ Obsolete for iTop 3.0+ as it is now directly included in iTop 🙌
 Stable releases can be found on [Molkobain I/O](https://www.molkobain.com/product/bubble-caselogs/).
 
 ## Installation
-* Unzip the extension
-* Copy the ``molkobain-bubble-caselogs`` folder under ``<PATH_TO_ITOP>/extensions`` folder of your iTop
-* Run iTop setup & select extension *Bubble caselogs*
-
-*Your folders should look like this*
-
-![Extensions folder](docs/mbc-install.png)
+Installation procedure is the same as for any iTop extension, just follow the instruction on the iTop official documentation [here](https://www.itophub.io/wiki/page?id=extensions%3Ainstallation).
 
 ## Configuration
 No configuration needed, the extension can be used out of the box!

@@ -46,13 +46,7 @@ Stable releases can be found either on the [releases page](https://github.com/Mo
 Downloading it directly from the *Clone or download* will get you the version under development which might be unstable.
 
 ## Installation
-* Unzip the extension
-* Copy the ``molkobain-console-tooltip`` folder under ``<PATH_TO_ITOP>/extensions`` folder of your iTop
-* Run iTop setup & select extension *Attributes description tooltip*
-
-*Your folders should look like this*
-
-![Extensions folder](docs/mct-install.png)
+Installation procedure is the same as for any iTop extension, just follow the instruction on the iTop official documentation [here](https://www.itophub.io/wiki/page?id=extensions%3Ainstallation).
 
 ## Configuration
 No configuration needed, the extension can be used out of the box!
