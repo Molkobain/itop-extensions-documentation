@@ -15,23 +15,26 @@ The classes MUST match some requirements in order to be used in the graphical vi
 
 Have the following attributes:
 
-| Code         | Label          | Type                 | Description                                                                                                                                              |
-|--------------|----------------|----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| rack_id      | Rack           | AttributeExternalKey | External key to the `Rack` class                                                                                                                         |
-| enclosure_id | Enclosure      | AttributeExternalKey | External key to the `Enclosure` class                                                                                                                    |
-| position_p   | Panel          | AttributeEnum        | `Enclosure` panel (or `Rack` panel if directly in it) the element is for, values can be `"front"` or `"rear"`                                            |
-| position_v   | Vert. position | AttributeMHFRackUnit | Vertical position (U) of the element in the `Enclosure` (or `Rack` if mounted directly on int). (Must be the bottom position, not top)                   |
-| position_h   | Hori. position | AttributeInteger     | Horizontal position of the element in its `Enclosure` (Must be the left side, not right). This ONLY applies if its `Enclosure`'s layout is set to 'Grid' |
-| nb_u         | Height         | AttributeMHFRackUnit | Height in units (U)                                                                                                                                      |
-| nb_cols      | Width          | AttributeInteger     | Width of the slot defined by on how many grid columns it spreads. This ONLY applies if its `Enclosure`'s layout is set to 'Grid'                         |
+| Code                 | Label                | Type                 | Description                                                                                                                                              |
+|----------------------|----------------------|----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| rack_id              | Rack                 | AttributeExternalKey | External key to the `Rack` class                                                                                                                         |
+| enclosure_id         | Enclosure            | AttributeExternalKey | External key to the `Enclosure` class                                                                                                                    |
+| position_p           | Panel                | AttributeEnum        | `Enclosure` panel (or `Rack` panel if directly in it) the element is for, values can be `"front"` or `"rear"`                                            |
+| position_v           | Vert. position       | AttributeMHFRackUnit | Vertical position (U) of the element in the `Enclosure` (or `Rack` if mounted directly on int). (Must be the bottom position, not top)                   |
+| position_h           | Hori. position       | AttributeInteger     | Horizontal position of the element in its `Enclosure` (Must be the left side, not right). This ONLY applies if its `Enclosure`'s layout is set to 'Grid' |
+| nb_u                 | Height               | AttributeMHFRackUnit | Height in units (U)                                                                                                                                      |
+| nb_cols              | Width                | AttributeInteger     | Width of the slot defined by on how many grid columns it spreads. This ONLY applies if its `Enclosure`'s layout is set to 'Grid'                         |
+| zero_u               | Zero-U               | AttributeEnum        | Only set to 'Yes' for devices that do not fit in standard racks / enclosures layout (eg. vertical PDU)                                                   |
+| weight               | Weight               | AttributeDecimal     | Weight of the device itself                                                                                                                              |
+| expected_power_input | Expected power input | AttributeInteger     | Expected power consumption of the device                                                                                                                 |
 
 Have the following methods:
 
-| Name              | Visibility | Static | Arguments | Return type | Description                                                                                                         |
-|-------------------|------------|--------|-----------|-------------|---------------------------------------------------------------------------------------------------------------------|
-| GetEndPositionV   | public     | No     | None      | `integer`   | Return on which U is positioned the top side of the device                                                          |
-| GetEndPositionH() | public     | No     | None      | `integer`   | Return on which column of the grid is positioned the right side of the device (used only for grid layout enclosure) |
-| IsMounted         | public     | No     | None      | `bool`      | Return if the device is mounted in an host (rack / enclosure)                                                       |
+| Name            | Visibility | Static | Arguments | Return type | Description                                                                                                         |
+|-----------------|------------|--------|-----------|-------------|---------------------------------------------------------------------------------------------------------------------|
+| GetEndPositionV | public     | No     | None      | `integer`   | Return on which U is positioned the top side of the device                                                          |
+| GetEndPositionH | public     | No     | None      | `integer`   | Return on which column of the grid is positioned the right side of the device (used only for grid layout enclosure) |
+| IsMounted       | public     | No     | None      | `bool`      | Return if the device is mounted in an host (rack / enclosure)                                                       |
 
 _Note: You'll find a class example in the frequent questions at the end of this page to bootstrap you._
 
@@ -128,6 +131,28 @@ Here is an example of a custom class with all necessary attributes and methods. 
           <target_class>Enclosure</target_class>
           <on_target_delete>DEL_AUTO</on_target_delete>
           <tracking_level/>
+        </field>
+        <field id="zero_u" xsi:type="AttributeEnum">
+            <values>
+                <value id="yes">yes</value>
+                <value id="no">no</value>
+            </values>
+            <sql>zero_u</sql>
+            <default_value>no</default_value>
+            <is_null_allowed>false</is_null_allowed>
+            <display_style>list</display_style>
+        </field>
+        <field id="weight" xsi:type="AttributeDecimal">
+            <sql>weight</sql>
+            <default_value/>
+            <is_null_allowed>true</is_null_allowed>
+            <digits>8</digits>
+            <decimals>3</decimals>
+        </field>
+        <field id="expected_power_input" xsi:type="AttributeInteger">
+            <sql>expected_power_input</sql>
+            <default_value/>
+            <is_null_allowed>true</is_null_allowed>
         </field>
       </fields>
       <methods>
