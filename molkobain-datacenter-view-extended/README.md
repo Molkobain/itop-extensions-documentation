@@ -40,7 +40,17 @@ You can try this extension on the online demo. There are already some racks, enc
 ## Licensing
 This extension is not open source and is bound by the license choose you purchased. There are several licenses available, see [https://www.molkobain.com/usage-licenses](https://www.molkobain.com/usage-licenses) for more information.
 
-## Third parties
-This extension embeds some third-party resources:
+## Dependencies
+This extension embeds some resources that are necessary for it to work. \
+Everything is included in the distributed packages, no extra effort needed.
+
+### iTop modules
+
+  * Module [molkobain-handy-framework](https://github.com/Molkobain/itop-handy-framework)
+  * Module [molkobain-console-tooltips](https://github.com/Molkobain/itop-console-tooltips)
+  * Module [molkobain-newsroom-provider](https://github.com/Molkobain/itop-newsroom-provider)
+
+### Third parties
+
   * Zero-U panel icon (USB memory stick) comes from [Icons8](https://icons8.com/icon/FlnYHAW3wYBn/usb-memory-stick)
   * Some class icons come from [Icons8](https://icons8.com)
