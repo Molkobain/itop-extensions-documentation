@@ -34,7 +34,7 @@ You can try this extension on the online demo. There are already some FAQs with 
 *Note: Mind to logout before switching between console & portal.*
 
 ## Compatibility
-Compatible with iTop 2.4+
+Compatible with iTop 2.7+
 
 ## Dependencies
 * Module `molkobain-handy-framework/1.3.0`
