@@ -55,6 +55,7 @@ For the moment some parts of the application are NOT compatible with the timezon
   * Notifications
   * Imports / exports
   * REST/JSON API
+  * SLA computations are made based on the iTop server timezone, but on the user’s
   * **[iTop 2.7.x]** Tables that are automatically refreshed
 
 ## Compatibility
