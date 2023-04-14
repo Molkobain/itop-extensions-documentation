@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.2.0] - 2023-04-14
+### Added
+- Add support for log entries dates
+
 ## [1.1.1] - 2023-03-01
 ### Changed
 - Fix crash due to wrong stylesheet compilation (variables.scss not found for import)
