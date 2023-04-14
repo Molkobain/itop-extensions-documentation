@@ -8,6 +8,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [1.2.0] - 2023-04-14
 ### Added
 - Add support for log entries dates
+  - End-user portal: Only works wirh default date/timeformat due to iTop's lacks of metadata
+  - Backoffice: Only works with iTop 3.0+ due to lack of metadata
+  - Backoffice: Only works with iTop 3.0+ due to lack of metadata
 
 ## [1.1.1] - 2023-03-01
 ### Changed
