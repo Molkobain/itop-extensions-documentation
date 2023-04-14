@@ -56,6 +56,8 @@ For the moment some parts of the application are NOT compatible with the timezon
   * Imports / exports
   * REST/JSON API
   * SLA computations are made based on the iTop server timezone, but on the user’s
+  * End-user portal log entries can't be converted if date/time format is not the default one due to lack of metadata
+  * **[iTop 2.7.x]** Backoffice log entries can’t be converted due to lack of metadata
   * **[iTop 2.7.x]** Tables that are automatically refreshed
 
 ## Compatibility
