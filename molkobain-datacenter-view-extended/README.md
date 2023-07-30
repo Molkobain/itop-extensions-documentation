@@ -54,3 +54,9 @@ Everything is included in the distributed packages, no extra effort needed.
 
   * Zero-U panel icon (USB memory stick) comes from [Icons8](https://icons8.com/icon/FlnYHAW3wYBn/usb-memory-stick)
   * Some class icons come from [Icons8](https://icons8.com)
+
+### Contributors
+A huge thank you to the people who contribute to this module 🙌
+
+  * Bostoen, Jeffrey ([@jbostoen](https://github.com/jbostoen))
+  * Raenker, Martin ([@mraenker](https://github.com/mraenker))
