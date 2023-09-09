@@ -5,11 +5,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.3.0] - 2023-09-09
+### Added
+- Add compatibility with iTop 3.1+
+
+### Changed
+- Update dependancies
+
 ## [1.2.0] - 2023-04-14
 ### Added
 - Add support for log entries dates
   - End-user portal: Only works wirh default date/timeformat due to iTop's lacks of metadata
-  - Backoffice: Only works with iTop 3.0+ due to lack of metadata
   - Backoffice: Only works with iTop 3.0+ due to lack of metadata
 
 ## [1.1.1] - 2023-03-01
@@ -29,7 +35,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 - First version
 
-[Unreleased]: https://github.com/Molkobain/itop-multiple-timezones-support/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-multiple-timezones-support/compare/v1.3.0...HEAD
+[1.3.0]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.3.0
 [1.2.0]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.2.0
 [1.1.1]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.1.1
 [1.1.0]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.1.0
