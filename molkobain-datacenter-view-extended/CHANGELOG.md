@@ -6,9 +6,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## Unreleased
+
+## [1.9.0] - 2023-09-09
 ### Added
+  * Add compatibility with iTop 3.1+
   * Add German translations thanks to [@mraenker](https://github.com/mraenker)
   * Include [bridge module for **IPAM for iTop**](https://github.com/Molkobain/itop-datacenter-view-extended-bridge-for-teemip) extensions thanks to [@xtophe38](https://github.com/xtophe38) tip for auto select condition
+
+### Changed
+  * Increase iTop min. version to 2.7.0
+  * Migrate deprecated usages of FontAwesome v4
+  * Migrate deprecated usages of `\ajax_page` class
+  * Remove molkobain-console-tooltips from mandatory dependencies as it is now included in iTop 3.0+
+  * Fix dependencies marked as optional instead of mandatory (thanks to [@Hipska](https://github.com/Hipska))
 
 ## [1.8.2] - 2022-10-24
 ### Changed
@@ -115,7 +125,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/Molkobain/itop-datacenter-view-extended/compare/v1.8.2...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-datacenter-view-extended/compare/v1.9.0...HEAD
+[1.9.0]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.9.0
 [1.8.2]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.8.2
 [1.8.1]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.8.1
 [1.8.0]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.8.0
