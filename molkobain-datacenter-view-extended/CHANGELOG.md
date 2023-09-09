@@ -10,7 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [1.9.0] - 2023-09-09
 ### Added
   * Add compatibility with iTop 3.1+
-  * Add German translations thanks to [@mraenker](https://github.com/mraenker)
+  * Add german translations thanks to [@mraenker](https://github.com/mraenker)
   * Include [bridge module for **IPAM for iTop**](https://github.com/Molkobain/itop-datacenter-view-extended-bridge-for-teemip) extensions thanks to [@xtophe38](https://github.com/xtophe38) tip for auto select condition
 
 ### Changed
