@@ -2,6 +2,14 @@
 
 # Custom datamodel classes
 
+* [Introduction](#introduction)
+* [Step 1 - Class requirements](#step-1---class-requirements)
+* [Step 2 - Class registration](#step-2---class-registration)
+* [Frequent questions](#frequent-questions)
+  * [Where can I find an example for a custom class?](#where-can-i-find-an-example-for-a-custom-class)
+
+## Introduction
+
 Out of the box, only certain classes of objects can be displayed in the graphical view of racks and enclosure:
 
 * For a `Rack`, classes deriving from either `Enclosure` or `DatacenterDevice`.
@@ -43,14 +51,10 @@ _Note: You'll find a class example in the frequent questions at the end of this 
 Once your classes have the requirements, you need to register them so they will be used in the graphical view. To do so, just add them in the configuration file for the `custom_device_classes` parameter. \
 For example if you have 2 classes named "CustomClassA" and "CustomClassB":
 
-```
-...
-
+```php
 'molkobain-datacenter-view-extended' => array (
-    'custom_device_classes' => array ('CustomClassA', 'CustomClassB'),
+    'custom_device_classes' => ['CustomClassA', 'CustomClassB'],
 ),
-
-...
 ```
 
 And that's it!
@@ -61,7 +65,7 @@ And that's it!
 
 Here is an example of a custom class with all necessary attributes and methods. Of course mind to change its name, DB table and adjust it to your class' specifities.
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.6">
   <classes>
