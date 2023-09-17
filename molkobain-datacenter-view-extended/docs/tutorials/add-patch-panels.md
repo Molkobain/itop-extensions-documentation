@@ -4,6 +4,7 @@
 
 * [Introduction](#introduction)
 * [Step 1 - Install the Cable Management extension](#step-1---install-the-cable-management-extension)
+* [Step 2 - Register PatchPanel class for the graphical view](#step-2---register-patchpanel-class-for-the-graphical-view)
 
 ## Introduction
 
