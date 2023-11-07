@@ -23,7 +23,7 @@ _Overview - Copyright [TeemIP](https://www.teemip.net)_
 ## Step 1 - Install the _Cable Management_ extension
 
 * Retrieve the extension either on
-  * Community users: iTop Hub or [TeemIP website](https://wiki.teemip.net/doku.php?id=extensions:teemip-cable-mgmt)
+  * Community users: [iTop Hub](https://store.itophub.io/en_US/products/teemip-cable-mgmt) or [TeemIP website](https://wiki.teemip.net/doku.php?id=extensions:teemip-cable-mgmt)
   * Combodo's customers: [Contact Combodo's support](https://support.combodo.com)
 * Install the extension as usual
 
