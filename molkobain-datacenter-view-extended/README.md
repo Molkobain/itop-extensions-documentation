@@ -22,7 +22,9 @@ It includes everything the simple version has, plus advanced features / customiz
 
 ### Limitations
 #### Downgrade to simple version
-If you want to remove the extended version of the extension to only keep the simple version, mind unlinking all elements off the hosts' (racks and enclosures) **rear panel** prior to it, otherwise elements from the rear panel will fallback on the front panel, overlapping genuine elements of the front panel.
+If you want to remove the extended version of the extension to only keep the simple version, mind to following the following steps first:
+  * On Racks and Enclosures, unlink all elements off the hosts' **rear panel** prior to it; otherwise elements from the rear panel will fallback on the front panel, overlapping genuine elements of the front panel.
+  * On Enclosures with a "grid" layout, detach all elements with an **horizontal position > 1**; otherwise they will fallback on the first column, overlapping genuine elements.
 
 ### Installation & configuration
   * [Installation](docs/configuration/installation.md)
