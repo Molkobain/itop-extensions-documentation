@@ -3,10 +3,8 @@
 # iTop extension: Multiple Timezones Support
 * [Description](#description)
 * [Limitations](#limitations)
-* [Compatibility](#compatibility)
+* [Installation & configuration](#installation--configuration)
 * [Downloads](#downloads)
-* [Installation](#installation)
-* [Configuration](#configuration)
 * [Third parties](#third-parties)
 
 ## Support
@@ -20,32 +18,32 @@ Allow users to see or edit dates & times in their own timezone instead of the se
   * Companies with employees or customers accross several countries
   * Planning changes safely with everyone seeing the right time (no more math!)
 
-![Description decoration](docs/mmts-wizard-01.png)
+![Description decoration](docs/img/mmts-wizard-01.png)
 
 ### User setup
 Easy on the users with a simple wizard to set up their timezone, they can either choose to let the app find their timezone and adjust it when they travel...
 
-![](docs/mmts-wizard-02-auto.png)
+![](docs/img/mmts-wizard-02-auto.png)
 
 ... or they can choose a specific timezone and stick to it (useful when working with a remote team) ...
 
-![](docs/mmts-wizard-02-user.png)
+![](docs/img/mmts-wizard-02-user.png)
 
 ... and, that's all! Timezone can be changed at any time in the user preferences.
 
-![](docs/mmts-wizard-03.png)
+![](docs/img/mmts-wizard-03.png)
 
 ### How it looks
 Any dates & times attributes in the UI will automatically be converted, a small icon indicates that it is now displayed in the user's timezone. (see [limitations](#limitations)). Works in both the backoffice and the end-users portal.
 
 *Backoffice lists*
-![](docs/mmts-console-lists.png)
+![](docs/img/mmts-console-lists.png)
 
 *Backoffice object details*
-![](docs/mmts-console-fields.png)
+![](docs/img/mmts-console-fields.png)
 
 *Portal lists*
-![](docs/mmts-portal-lists.png)
+![](docs/img/mmts-portal-lists.png)
 
 ## Limitations
 **IMPORTANT: Before buying it, make sure you have read the following limitations.**
@@ -60,30 +58,13 @@ For the moment some parts of the application are NOT compatible with the timezon
   * **[iTop 2.7.x]** Backoffice log entries can’t be converted due to lack of metadata
   * **[iTop 2.7.x]** Tables that are automatically refreshed
 
-## Compatibility
-Compatible with iTop 2.7.x and 3.0.**1**+. \
-**NOT** compatible with iTop 3.0.**0** due to a regression in the app APIs. 😕
+## Installation & configuration
+* [Installation](docs/configuration/installation.md)
+* [Configuration parameters](docs/configuration/configuration-parameters.md)
+* [Change log](./CHANGELOG.md)
 
 ## Downloads
 Stable releases can only be found on [Molkobain I/O](https://www.molkobain.com/product/multiple-timezones-support/).
-
-## Installation
-Installation procedure is the same as for any iTop extension, just follow the instruction on the iTop official documentation [here](https://www.itophub.io/wiki/page?id=extensions%3Ainstallation).
-
-## Configuration
-No configuration needed, each user will be prompt to choose its timezone on next login.
-
-### Parameters
-Some configuration parameters are available from the Configuration editor of the console:
-
-  * `enabled` Enable / disable the extension without having to uninstall it. Value can be `true` or `false`.
-  * `disabled_guis` Specify for which GUIs the extension should be disabled, for example if you only want to use it in the backoffice and not in the end-users portal. Values can be `backoffice`, `itop-portal` or any other portal instance ID.
-
-*Default values:*
-```
-'enabled' => true,
-'disabled_guis' => array(),
-```
 
 ## Third parties
 This extension embeds some third-party resources:
