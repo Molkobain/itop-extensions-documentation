@@ -7,6 +7,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.10.1]
+### Changed
+  * Improve robustness in case of wrong XML assembly by the ITSM Designer
+
 ## [1.10.0]
 ### Added
   * Add `business_criticity` and `serialnumber` attributes to default summary cards
@@ -141,7 +145,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/Molkobain/itop-datacenter-view-extended/compare/v1.10.0...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-datacenter-view-extended/compare/v1.10.1...HEAD
+[1.10.1]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.10.1
 [1.10.0]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.10.0
 [1.9.0]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.9.0
 [1.8.2]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.8.2
