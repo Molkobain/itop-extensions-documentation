@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.3.1] - 2024-02-27
+### Changed
+- Fix timezone selector options height in iTop 3.0+
+
 ## [1.3.0] - 2023-09-09
 ### Added
 - Add compatibility with iTop 3.1+
@@ -35,7 +39,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 - First version
 
-[Unreleased]: https://github.com/Molkobain/itop-multiple-timezones-support/compare/v1.3.0...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-multiple-timezones-support/compare/v1.3.1...HEAD
+[1.3.1]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.3.1
 [1.3.0]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.3.0
 [1.2.0]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.2.0
 [1.1.1]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.1.1
