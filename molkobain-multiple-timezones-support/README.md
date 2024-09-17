@@ -66,7 +66,16 @@ For the moment some parts of the application are NOT compatible with the timezon
 ## Downloads
 Stable releases can only be found on [Molkobain I/O](https://www.molkobain.com/product/multiple-timezones-support/).
 
-## Third parties
+## Dependencies
+This extension embeds some resources that are necessary for it to work. \
+Everything is included in the distributed packages, no extra effort needed.
+
+### iTop modules
+
+* Module [molkobain-handy-framework](https://github.com/Molkobain/itop-handy-framework)
+* Module [molkobain-newsroom-provider](https://github.com/Molkobain/itop-newsroom-provider)
+
+### Third parties
 This extension embeds some third-party resources:
 
   * [Moment Timezone](https://momentjs.com/timezone/) for dates & times manipulations

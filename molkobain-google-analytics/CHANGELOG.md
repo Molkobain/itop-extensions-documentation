@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
+### Changed
+- Raise min iTop version to 3.2.0
+- Add compatibility with PHP 8.1-8.3
 
 ## [1.4.1] - 2020-01-19
 ### Changed

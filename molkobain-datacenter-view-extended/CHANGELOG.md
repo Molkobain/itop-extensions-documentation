@@ -7,11 +7,27 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
-## [1.10.1]
+## [1.11.1] - 2024-09-18
+### Changed
+  * Fix crash when loading newsroom on a non-admin user in the backoffice
+
+## [1.11.0] - 2024-08-29
+### Added
+  * Add compatibility with iTop 3.2+
+
+### Changed
+  * Fix enclosure fields overloapping on the "Grid layout wizard" in iTop 3.x
+  * Migrate deprecated usages of `WebPage::add_linked_script()` and `WebPage::add_linked_stylesheet()`
+
+## [1.10.2] - 2024-08-17
+### Changed
+  * Increase AttributeDecimal attributes size to 10 digits (including 3 decimals)
+
+## [1.10.1] - 2024-04-30
 ### Changed
   * Improve robustness in case of wrong XML assembly by the ITSM Designer
 
-## [1.10.0]
+## [1.10.0] - 2024-01-17
 ### Added
   * Add `business_criticity` and `serialnumber` attributes to default summary cards
   * Add uniqueness rules on linkedsets for better compatibility with iTop 3.1+
@@ -145,7 +161,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/Molkobain/itop-datacenter-view-extended/compare/v1.10.1...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-datacenter-view-extended/compare/v1.11.1...HEAD
+[1.11.1]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.11.1
+[1.11.0]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.11.0
+[1.10.2]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.10.2
 [1.10.1]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.10.1
 [1.10.0]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.10.0
 [1.9.0]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.9.0
