@@ -83,7 +83,7 @@ Here is an example of a custom class with all necessary attributes and methods. 
           <validation_pattern/>
           <tracking_level>all</tracking_level>
         </field>
-        <field id="nb_u" xsi:type="AttributeString">
+        <field id="nb_u" xsi:type="AttributeMHFRackUnit">
           <sql>nb_u</sql>
           <default_value/>
           <is_null_allowed>true</is_null_allowed>
@@ -105,7 +105,7 @@ Here is an example of a custom class with all necessary attributes and methods. 
           <is_null_allowed>false</is_null_allowed>
           <display_style>list</display_style>
         </field>
-        <field id="position_v" xsi:type="AttributeInteger">
+        <field id="position_v" xsi:type="AttributeMHFRackUnit">
           <sql>position_v</sql>
           <default_value/>
           <is_null_allowed>true</is_null_allowed>
