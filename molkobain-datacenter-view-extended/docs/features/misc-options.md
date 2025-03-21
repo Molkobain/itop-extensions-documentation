@@ -63,6 +63,7 @@ To ease documenting where racks are located, the extension adds 2 attributes to 
   * `Parent` which points to the parent `Location` (eg. a _Floor_ for a _Room_).
   * `Child locations` which list all `Location` objects having this location as parent.
 
+_Note: Mind that in order to avoid conflicts, this feature is not enabled if you have the **Location Hierarchy** extension installed._
 
 ## Frequent questions
 
