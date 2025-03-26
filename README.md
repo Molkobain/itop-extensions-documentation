@@ -12,6 +12,7 @@ You'll have access to:
 
 Choose an extension below to get started! 🤓
 
+  * [Background tasks control center](molkobain-background-tasks-control-center): Manage background tasks (pause, resume, removed), check their execution time. Also visualize async. tasks currently in queue. 
   * [Datacenter view](molkobain-datacenter-view): Easily manage & visualize your racks, enclosures and datacenter devices.
   * [Datacenter view extended](molkobain-datacenter-view-extended): Base extension + advanced features / customizations 🚀
   * [FontAwesome 5 pack](molkobain-fontawesome5-pack): Use new icon sets for both portal & console.

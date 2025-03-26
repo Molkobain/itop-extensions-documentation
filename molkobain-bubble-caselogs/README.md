@@ -80,4 +80,4 @@ I would like to give a special thank you to those who contributed to this projec
 - @pcadeot
 
 ## Licensing
-This extension is bound by the license you purchased. A license grants you a non-exclusive and non-transferable right to use and incorporate the item in your personal or commercial projects. There are several [licenses available](https://www.molkobain.com/usage-licenses/).
+This extension is under [AGPLv3](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License).
