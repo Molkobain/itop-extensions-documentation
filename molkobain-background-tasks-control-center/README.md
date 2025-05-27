@@ -7,6 +7,7 @@
   * [Configuration](#configuration)
   * [Change log](CHANGELOG.md)
   * [Q&As](#qas)
+  * [Contributors](#contributors)
 
 ## Support
 If you like this project, you can buy me beer, always appreciated! 🍻😁
@@ -38,15 +39,19 @@ You can try this extension on the online demo. There are some background and asy
 ## Compatibility
 Compatible with iTop 3.2+
 
-## Dependencies
-  * Module `molkobain-handy-framework`
-  * Module `molkobain-newsroom-provider`
-
 ## Downloads
 Stable releases can be found on [GitHub](https://github.com/Molkobain/itop-background-tasks-control-center/releases).
 
 ## Installation
 Installation procedure is the same as for any iTop extension, just follow the instruction on the iTop official documentation [here](https://www.itophub.io/wiki/page?id=extensions%3Ainstallation).
+
+### Dependencies
+This extension embeds some resources that are necessary for it to work. \
+Everything is included in the distributed packages, no extra effort needed.
+
+#### iTop modules
+* Module [molkobain-handy-framework](https://github.com/Molkobain/molkobain-handy-framework)
+* Module [molkobain-newsroom-provider](https://github.com/Molkobain/molkobain-newsroom-provider)
 
 ## Configuration
 No configuration needed, the extension can be used out of the box!
@@ -79,3 +84,10 @@ For actions to display in the "async. tasks" tab:
 
 ## Licensing
 This extension is under [AGPLv3](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License).
+
+## Contributors
+I would like to give a special thank you to the people who contributed to this
+
+### Names
+
+* Stetina, Pavel  a.k.a [@Stetinac](https://github.com/Stetinac)
