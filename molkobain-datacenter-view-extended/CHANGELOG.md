@@ -7,10 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
-## [1.12.0] - 2025-06-03
-### Added
-  * Add "allowed permissions" tab on Person / Team classes
-
+## [1.11.3] - 2025-06-03
 ### Changed
   * Fix missing "allowed permissions" tab on Rack class
 
@@ -172,8 +169,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/Molkobain/itop-datacenter-view-extended/compare/v1.12.0...HEAD
-[1.12.0]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.12.0
+[Unreleased]: https://github.com/Molkobain/itop-datacenter-view-extended/compare/v1.11.3...HEAD
+[1.11.3]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.11.3
 [1.11.2]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.11.2
 [1.11.1]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.11.1
 [1.11.0]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.11.0
