@@ -7,6 +7,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.1.0] - 2025-05-27
+### Added
+  * Add Czech translations thanks to Pavel Stetinac ([@Stetinac](https://github.com/Stetinac))
+
 ## [1.0.0] - 2025-03-21
 ### Added
   * Initial release

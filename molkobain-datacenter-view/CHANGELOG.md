@@ -7,6 +7,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.14.3] - 2025-06-03
+### Changed
+  * Update Czech translations thanks to [@Stetinac](https://github.com/Stetinac)
+
 ## [1.14.2] - 2024-11-05
 ### Changed
   * Improve compatibility with "Location Hierarchy" extension (fix error during setup "[...] DatacenterViewInstaller [...] Unknown attribute locationtype_id from class Location")
@@ -171,7 +175,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
   * Initial release
 
-[Unreleased]: https://github.com/Molkobain/itop-datacenter-view/compare/v1.14.2...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-datacenter-view/compare/v1.14.3...HEAD
+[1.14.3]: https://github.com/Molkobain/itop-datacenter-view/releases/tag/v1.14.3
 [1.14.2]: https://github.com/Molkobain/itop-datacenter-view/releases/tag/v1.14.2
 [1.14.1]: https://github.com/Molkobain/itop-datacenter-view/releases/tag/v1.14.1
 [1.14.0]: https://github.com/Molkobain/itop-datacenter-view/releases/tag/v1.14.0

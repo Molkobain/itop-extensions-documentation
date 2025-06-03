@@ -67,3 +67,4 @@ A huge thank you to the people who contribute to this module 🙌
 
   * Bostoen, Jeffrey ([@jbostoen](https://github.com/jbostoen))
   * Raenker, Martin ([@mraenker](https://github.com/mraenker))
+  * Rudner, Björn ([@rudnerbjoern](https://github.com/rudnerbjoern))

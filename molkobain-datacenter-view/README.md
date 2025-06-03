@@ -84,6 +84,7 @@ I would like to give a special thank you to the people who contributed to this
  * Makhlouf, Hadi
  * Sedlak, Zdenek a.k.a [@xmstspider](https://github.com/xmstspider)
  * Schirrmann, Pascal a.k.a [@Schirrms](https://github.com/Schirrms)
+ * Stetina, Pavel  a.k.a [@Stetinac](https://github.com/Stetinac)
    
 ### Aliases
 
