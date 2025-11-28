@@ -7,6 +7,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.12.1] - 2025-11-28
+### Changed
+  * Update dependencies
+
+## [1.12.0] - 2025-11-16
+### Added
+  * New config. param. `allowed_profiles_for_graphical_edition` to restrict graphical edition to specific profiles
+
+### Changed
+  * Display error message in graphical view if saving failed
+
 ## [1.11.3] - 2025-06-03
 ### Changed
   * Fix missing "allowed permissions" tab on Rack class
@@ -169,7 +180,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/Molkobain/itop-datacenter-view-extended/compare/v1.11.3...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-datacenter-view-extended/compare/v1.12.1...HEAD
+[1.12.1]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.12.1
+[1.12.0]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.12.0
 [1.11.3]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.11.3
 [1.11.2]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.11.2
 [1.11.1]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.11.1
