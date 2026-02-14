@@ -5,6 +5,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.3.6] - 2026-02-14
+### Changed
+- Disable extension when a user is impersonating another one to avoid having the blocking wizard modal
+
+## [1.3.5] - 2025-12-05
+### Changed
+- Fix packaging issue causing missing update of French dictionary
+
+## [1.3.4] - 2025-12-03
+### Changed
+- Fix initial modal size being too big and small screens (height < 800px)
+- Fix typo in French dictionary
+
 ## [1.3.3] - 2025-11-28
 ### Changed
 - Update dependencies
@@ -48,7 +61,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 - First version
 
-[Unreleased]: https://github.com/Molkobain/itop-multiple-timezones-support/compare/v1.3.3...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-multiple-timezones-support/compare/v1.3.6...HEAD
+[1.3.6]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.3.6
+[1.3.5]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.3.5
+[1.3.4]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.3.4
 [1.3.3]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.3.3
 [1.3.2]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.3.2
 [1.3.1]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.3.1
