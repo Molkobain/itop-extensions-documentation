@@ -15,7 +15,6 @@ Choose an extension below to get started! 🤓
   * [Background tasks control center](molkobain-background-tasks-control-center): Manage background tasks (pause, resume, removed), check their execution time. Also visualize async. tasks currently in queue. 
   * [Datacenter view](molkobain-datacenter-view): Easily manage & visualize your racks, enclosures and datacenter devices.
   * [Datacenter view extended](molkobain-datacenter-view-extended): Base extension + advanced features / customizations 🚀
-  * [FontAwesome 5 pack](molkobain-fontawesome5-pack): Use new icon sets for both portal & console.
   * [Google analytics](molkobain-google-analytics): Enable Google Analytics reporting on your iTop instance within seconds!
   * [Markdown viewer](molkobain-markdown-viewer): Edit attributes in Markdown, view them as HTML.
   * [Multiple timezones display](molkobain-multiple-timezones-support): Allow users to view or edit dates & times in their own timezone instead of the server's default one.
@@ -25,6 +24,7 @@ _Extensions integrated in iTop 3.0+, meaningful only for iTop 2.7 and older:_
 * [Bubble caselogs](molkobain-bubble-caselogs): Change the look and feel of the caselogs to make it look like modern messaging app.
 * [Caselogs toggler](molkobain-caselogs-toggler): Finally a way to open / close all caselog entries at once!
 * [Console tooltips](molkobain-console-tooltips): Inform your users about the purpose of object fields with small tooltips.
+* [FontAwesome 5 pack](molkobain-fontawesome5-pack): Use new icon sets for both portal & console.
 
 If you like this project, you can buy me beer, always appreciated! 🍻😁
 
