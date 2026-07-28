@@ -1,3 +1,6 @@
+> [!WARNING]
+> This module is obsolete for iTop 3.0+ as it is now directly included in iTop core, you should consider removing it from your instance.
+
 👋 Available on [iTop Hub](https://store.itophub.io/en_US/products/molkobain-console-tooltips) & [Molkobain I/O!](https://www.molkobain.com/product/console-tooltips/)
 
 # iTop extension: molkobain-console-tooltips
