@@ -1,3 +1,6 @@
+> [!WARNING]
+> This module is obsolete for iTop 2.7+ as it is now directly included in iTop core, you should consider removing it from your instance.
+
 👋 [Available on Molkobain I/O!](https://www.molkobain.com/product/font-awesome-5-pack/)
 
 # iTop extension: molkobain-fontawesome5-pack
