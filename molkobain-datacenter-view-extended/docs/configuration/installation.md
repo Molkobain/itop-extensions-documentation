@@ -4,7 +4,7 @@
 
 ## Compatibility
 ### Compatibility with iTop
-The extension is compatible with iTop 2.7+.
+The extension is compatible with iTop 3.2.1+.
 
 ### Compatibility with other extensions
 * **TeemIP** by @xtophe38:\

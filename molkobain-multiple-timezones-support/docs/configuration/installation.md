@@ -4,8 +4,7 @@
 
 ## Compatibility
 ### Compatibility with iTop
-Compatible with iTop 2.7.x and 3.0.**1**+. \
-**NOT** compatible with iTop 3.0.**0** due to a regression in the app APIs. 😕
+Compatible with iTop 3.2.0+.
 
 ## Installation procedure
 Installation procedure is the same as for any iTop extension, just follow the instruction on the iTop official documentation [here](https://www.itophub.io/wiki/page?id=extensions%3Ainstallation). \

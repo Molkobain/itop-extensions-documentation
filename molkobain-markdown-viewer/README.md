@@ -34,11 +34,11 @@ You can try this extension on the online demo. There are already some FAQs with 
 *Note: Mind to logout before switching between console & portal.*
 
 ## Compatibility
-Compatible with iTop 2.7+
+Compatible with iTop 3.2+
 
 ## Dependencies
-* Module `molkobain-handy-framework/1.3.0`
-* Module `molkobain-newsroom-provider/1.0.1`
+* Module `molkobain-handy-framework/1.11.0`
+* Module `molkobain-newsroom-provider/1.8.0`
 
 *Note: All dependencies are included in the `dist/` folder, so all you need to do is follow the installation section below.*
 

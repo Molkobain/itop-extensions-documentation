@@ -49,7 +49,6 @@ Everything is included in the distributed packages, no extra effort needed.
 
 ### iTop modules
 
-  * Module [molkobain-console-tooltips](https://github.com/Molkobain/itop-console-tooltips)
   * Module [molkobain-datacenter-view](https://github.com/Molkobain/itop-datacenter-view)
   * Module [molkobain-datacenter-view-bridge-for-combodo-location-hierarchy](https://github.com/Molkobain/itop-datacenter-view-bridge-for-combodo-location-hierarchy)
   * Module [molkobain-datacenter-view-extended-bridge-for-teemip](https://github.com/Molkobain/itop-datacenter-view-extended-bridge-for-teemip)

@@ -5,6 +5,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.4.0] - 2026-08-23
+### Added
+- Add compatibility with iTop 3.3+
+
+### Changed
+- Increase iTop min version to 3.2
+- Fix JS error in preferences page when extension is disabled
+- Move dictionaries to dedicated folder
+
 ## [1.3.6] - 2026-02-14
 ### Changed
 - Disable extension when a user is impersonating another one to avoid having the blocking wizard modal
@@ -61,7 +70,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 - First version
 
-[Unreleased]: https://github.com/Molkobain/itop-multiple-timezones-support/compare/v1.3.6...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-multiple-timezones-support/compare/v1.4.0...HEAD
+[1.4.0]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.4.0
 [1.3.6]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.3.6
 [1.3.5]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.3.5
 [1.3.4]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.3.4

@@ -7,6 +7,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.13.0] - 2026-09-21
+### Added
+* Add compatibility with iTop 3.3+
+* Add compatibility with PHP 8.4
+
+### Changed
+* Increase iTop min. version to 3.2.1
+* Fix SCSS import issue with iTop 3.3+
+* Fix error due to incorrect namespace in use clause
+* Migrate deprecated usages of \iApplicationObjectExtension
+* Move dictionaries to dedicated folder
+* Allow disabling of the page beam
+* Remove molkobain-console-tooltips as it was deprecated
+
 ## [1.12.1] - 2025-11-28
 ### Changed
   * Update dependencies
@@ -180,7 +194,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/Molkobain/itop-datacenter-view-extended/compare/v1.12.1...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-datacenter-view-extended/compare/v1.13.0...HEAD
+[1.13.0]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.13.0
 [1.12.1]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.12.1
 [1.12.0]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.12.0
 [1.11.3]: https://github.com/Molkobain/itop-datacenter-view-extended/releases/tag/v1.11.3

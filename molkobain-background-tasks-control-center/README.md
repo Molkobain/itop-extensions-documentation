@@ -34,7 +34,7 @@ _Task reschedule_
 
 ## Online demo
 You can try this extension on the online demo. There are some background and async. tasks as an example. Just click on the links below to access it:
-  * [Administration console](http://mbc.itop.molkobain.com/pages/UI.php?operation=details&class=UserRequest&id=2&auth_user=admin&auth_pwd=admin) (admin / admin)
+  * [Administration console](http://mbc.itop.molkobain.com/pages/UI.php?route=mio_background_tasks_control_center.display&c[menu]=iTopSystemInformation&c%5Bmenu%5D=BackgroundTasksControlCenter&auth_user=admin&auth_pwd=admin) (admin / admin)
 
 ## Compatibility
 Compatible with iTop 3.2+

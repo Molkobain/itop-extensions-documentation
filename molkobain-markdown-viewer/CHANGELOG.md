@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.5.0] - 2026-08-03
+### Changed
+  * Add compatibility with iTop 3.3+
+  * Change iTop min. version 3.2.0
+
 ## [1.4.0] - 2022-09-25
 ### Changed
   * Add compatibility with iTop 3.0+
@@ -42,7 +47,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
   * First version
 
-[Unreleased]: https://github.com/Molkobain/itop-markdown-viewer/compare/v1.4.0...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-markdown-viewer/compare/v1.5.0...HEAD
+[1.5.0]: https://github.com/Molkobain/itop-markdown-viewer/releases/tag/v1.5.0
 [1.4.0]: https://github.com/Molkobain/itop-markdown-viewer/releases/tag/v1.4.0
 [1.3.0]: https://github.com/Molkobain/itop-markdown-viewer/releases/tag/v1.3.0
 [1.2.0]: https://github.com/Molkobain/itop-markdown-viewer/releases/tag/v1.2.0
