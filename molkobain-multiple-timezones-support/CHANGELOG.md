@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.5.0] - xxxx
+### Changed
+- Increase iTop min version to 3.2.1
+- Fix SCSS import issue with iTop 3.3+
+
 ## [1.4.0] - 2026-08-23
 ### Added
 - Add compatibility with iTop 3.3+
