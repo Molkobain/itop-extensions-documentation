@@ -56,7 +56,7 @@ Out of the box this extension doesn't change any attributes, you have to configu
 ### Parameters
 Some configuration parameters are available from the Configuration editor of the console:
 * ``enabled`` Enable / disable the extension without having to uninstall it. Value can be ``true`` or ``false``.
-* ``markdown_attributes`` Class attributes to enable as Markdown. Value must be an array of classes, each containing an array of the attributes you want to render as Markdown. Default value is none, you have to set which ones you want!
+* ``markdown_attributes`` Class attributes to enable as Markdown. Value must be an array of classes, each containing an array of the attributes you want to render as Markdown. Default value is none, you have to set which ones you want! Both plain text attributes (eg. ``AttributeText``) and HTML attributes (eg. ``AttributeHTML``) are supported.
 * ``markdown_options`` Allow to set the options of the Markdown converter ([Showdown.js](https://github.com/showdownjs/showdown)), check the dedicated [wiki page](https://github.com/showdownjs/showdown/wiki/Showdown-Options) to see them all.
 
 *Example:*
@@ -83,3 +83,5 @@ This extension is under [AGPLv3](https://en.wikipedia.org/wiki/GNU_Affero_Genera
 
 ## Third party libs
 This extension is based on the awesome Showdown library. For more information visit its [website](https://github.com/showdownjs/showdown).
+
+The HTML generated from the Markdown is sanitized with the DOMPurify library, following the rules of the HTML sanitizer configured in iTop (``html_sanitizer`` parameter), so it allows the same HTML as iTop HTML attributes. For more information visit its [website](https://github.com/cure53/DOMPurify).

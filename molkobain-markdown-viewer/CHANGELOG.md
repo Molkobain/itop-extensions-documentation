@@ -5,6 +5,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.6.0] - 2026-10-04
+### Changed
+  * Fix rendering of HTML attributes (edited with the rich text editor) which were rendered on a single line
+  * Fix security issue (XSS): HTML generated from the Markdown is now sanitized with DOMPurify, following the rules of the HTML sanitizer configured in iTop (`html_sanitizer` parameter)
+  * Fix preview of HTML attributes not showing the last changes when opened right after typing
+  * Fix paragraphs of plain text attributes being merged when their line endings are not CRLF (eg. value set through the REST API or an import)
+  * Fix invalid classes / attributes in the `markdown_attributes` parameter breaking the display, they are now ignored
+
 ## [1.5.0] - 2026-08-03
 ### Changed
   * Add compatibility with iTop 3.3+
@@ -47,7 +55,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
   * First version
 
-[Unreleased]: https://github.com/Molkobain/itop-markdown-viewer/compare/v1.5.0...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-markdown-viewer/compare/v1.6.0...HEAD
+[1.6.0]: https://github.com/Molkobain/itop-markdown-viewer/releases/tag/v1.6.0
 [1.5.0]: https://github.com/Molkobain/itop-markdown-viewer/releases/tag/v1.5.0
 [1.4.0]: https://github.com/Molkobain/itop-markdown-viewer/releases/tag/v1.4.0
 [1.3.0]: https://github.com/Molkobain/itop-markdown-viewer/releases/tag/v1.3.0
