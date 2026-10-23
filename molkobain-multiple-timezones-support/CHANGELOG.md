@@ -5,7 +5,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
-## [1.5.0] - xxxx
+## [1.5.1] - 2026-10-23
+### Changed
+- Fix AttributeDateTime disappearing (in the backoffice) if reloaded by another attribute it depends on
+- Fix "Invalid format" error on empty AttributeDateTime
+
+## [1.5.0] - 2026-09-22
 ### Changed
 - Increase iTop min version to 3.2.1
 - Fix SCSS import issue with iTop 3.3+
@@ -75,7 +80,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 - First version
 
-[Unreleased]: https://github.com/Molkobain/itop-multiple-timezones-support/compare/v1.4.0...HEAD
+[Unreleased]: https://github.com/Molkobain/itop-multiple-timezones-support/compare/v1.5.1...HEAD
+[1.5.1]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.5.1
+[1.5.0]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.5.0
 [1.4.0]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.4.0
 [1.3.6]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.3.6
 [1.3.5]: https://github.com/Molkobain/itop-multiple-timezones-support/releases/tag/v1.3.5
